@@ -1,11 +1,24 @@
 p {
 	text-align: center;
+  color: #FCFBE3;
 }
 
 h2 {
 	text-align: center;
+  color: #FCFBE3;
 }
 
+h1 {
+  color: #FCFBE3;
+}
+
+h3 {
+  color: #FCFBE3;
+}
+
+h4 {
+  color: #FCFBE3;
+}
 
 
 body.homepage {
