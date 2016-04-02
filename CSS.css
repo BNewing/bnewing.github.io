@@ -1,6 +1,19 @@
 p {
 	text-align: center;
   color: #FCFBE3;
+  font-family: Garamond;
+
+}
+
+
+p.contact {
+  text-align:left;
+  color: #FCFBE3;
+  font-family: Garamond;
+
+}
+
+
 }
 
 h1 {
@@ -10,28 +23,33 @@ h1 {
 h2 {
 	text-align: center;
   color: #FCFBE3;
+  font-family: Garamond;
 }
 
 h1 {
   text-align: center;
   color: #FCFBE3;
+  font-family: Garamond;
 }
 
 h3 {
   color: #FCFBE3;
+  font-family: Garamond;
 }
 
 h4 {
   color: #FCFBE3;
+  font-family: Garamond;
 }
 
 
 ul {
   color: #FCFBE3;
+  font-family: Garamond;
 }
 
 body.homepage {
-    background-image: url('Background.jpg');
+    background-image: url('images/Background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -48,4 +66,8 @@ background-color: #464646;
   div.navbar {
   	background-color: #003399;
   }
+
+div.jumbotron {
+  background-color:#000000;
+}
 
