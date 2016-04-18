@@ -47,6 +47,7 @@ ul.nav li a, ul.nav li a:visited {
   color: orange !important;
 }
 
+<<<<<<< HEAD
 ul.nav li a:hover, ul.nav li a:active {
   color: green !important;
 }
@@ -58,6 +59,16 @@ ul.nav li.active a {
 a {
   color: white;
 }
+=======
+body.homepage {
+    background-image: url('images/Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    color: #FCFBE3;
+  }
+>>>>>>> parent of 8f0475d... Removed to-do list from website code
 
 
 li.active {
