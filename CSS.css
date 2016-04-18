@@ -1,16 +1,12 @@
 p {
-	text-align: center;
+  text-align: center;
   color: #FCFBE3;
 
 }
-
 
 p.contact {
-  text-align:left;
+  text-align: left;
   color: #FCFBE3;
-
-}
-
 
 }
 
@@ -33,16 +29,23 @@ h3 {
 }
 
 h4 {
-  color: #FCFBE3;
+  color: white;
 }
 
-
-ul {
-  color: #FCFBE3;
+ul.nav li a, ul.nav li a:visited {
+  color: orange !important;
 }
 
-a:link {
-  color: #00CC99;
+ul.nav li a:hover, ul.nav li a:active {
+  color: green !important;
+}
+
+ul.nav li.active a {
+  color: black !important;
+}
+
+a {
+  color: white;
 }
 
 body.homepage {
@@ -54,15 +57,26 @@ body.homepage {
     color: #FCFBE3;
   }
 
+li.active {
+  background-color: green;
+}
 
 
-  body {
-background-color: #464646;
-  }
-
-  
-div.navbar {
+ul.nav {
   background-color:#000000;
-  opacity: 0.50
-  }
+  opacity: 0.70
+}
 
+body.homepage {
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+
+
+body {
+  background-color: #464646;
+}
