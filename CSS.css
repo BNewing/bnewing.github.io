@@ -45,6 +45,20 @@ a:link {
   color: #00CC99;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #00FFFF;
+}
+
+a:hover {
+color: #00CC66;
+}
+
+a:active {
+color: #99FFFF;
+}
+
+
 body.homepage {
     background-image: url('images/Background.jpg');
     background-repeat: no-repeat;
@@ -61,7 +75,7 @@ background-color: #464646;
   }
 
   
-div.navbar {
+ul.nav {
   background-color:#000000;
   opacity: 0.50
   }
