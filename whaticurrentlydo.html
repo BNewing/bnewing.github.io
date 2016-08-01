@@ -8,6 +8,10 @@
     <title>What I Currently Do</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <link rel='stylesheet' style='text/css' href='CSS.css'>
 </head>
 
@@ -28,51 +32,86 @@
 <hr>
 	<div>	
 		<h3 align='center'>Oganisations I Currently Work With </h2>
-		<p> At present, I'm currently involved with the following organisations: </p>
+		<p> At present, I'm currently involved with the following organisations (click the logos for more info): </p>
 	</div>
 <hr>
 			
 
-			<div class="container">
-				<div class="row">
-					
-					<div class='col-sm-4 col-xs-12' style="text-align:center">
-						<a href="http://www.threerings.org.uk"> 
-							<img src="images/ThreeRingsLogo.png" alt="Three Rings CIC" height="150"> 
-						</a>
-						<h4> <b> Three Rings CIC - Support Volunteer </b> </h4>
-						<p> I am a Support Volunteer at Three Rings CIC. Once a week, I man the support e-mail inbox, and write the weekly round-up to keep the rest of the Three Rings team up to date on what the support team does! </p>
-						<br>
-					</div>
-				
-
-
-					
-						<div class='col-sm-4 col-xs-12' style="text-align:center">
-						<a href="http://www.codefirstGirls.org.uk"> 
-							<img src="images/CodeFirstGirlsLogo.png" alt="Code First Girls" height="150">
-						</a> 
-						<h4><b> Code First: Girls</b></h4>
-						<p> I am the Programmes Intern at Code First: Girls. I recruit volunteers, am a point of contact for our community, and organise and co-ordinate Code First: Girls courses across the UK and Ireland</p>
-						<br>
-					</div>
+<div class="container">
+	<div class="row">
+		<div class='col-sm-4 col-xs-12' style="text-align:center">
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#supportVolunteer"><img src="images/ThreeRingsLogo.png" alt="Three Rings CIC" height="150"></button>
+			<h4> <b> <a href="http://www.threerings.org.uk">Three Rings CIC</a> - Support Volunteer </b> </h4>		
+		</div>
+		
+						
+		<div class='col-sm-4 col-xs-12' style="text-align:center">
+			<button type="button"  data-toggle="modal" data-target="#zooniverseIntern"><img src="images/Zooniverse.png" alt="Code First Girls" height="150"></button>
+			<a href="http://zooniverse.org"><h4><b>Zooniverse</a> - Web Developer intern</b></h4>
+		</div>
 			
+		<div class='col-sm-4 col-xs-12' style="text-align:center">
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#documentationVolunteer"><img src="images/ThreeRingsLogo.png" alt="Three Rings CIC" height="150"></button>
+			<a href="http://www.threerings.org.uk"> <h4><b> Three Rings</a> - Documentation Volunteer</b></h4>
+		</div>
+	</div>
+</div>
 
 
-					
-						<div class='col-sm-4 col-xs-12' style="text-align:center">
-						<a href="http://www.threerings.org.uk"> 
-							<img src="images/ThreeRingsLogo.png" alt="Three Rings CIC" height="150"> 
-						</a>
-						<h4><b> Three Rings - Documentation Volunteer</b></h4>
-						<p> I help keep the Three Rings documentation up to date. I recently spent a week in Wales with JTA and the dev team completely overhauling the whole documentation! </p>
-						<br>
-					</div>
-				</div>
-				
-				</div>
-			</div>
+<div id="supportVolunteer" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Modal Header</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>I am a Support Volunteer at Three Rings CIC. Once a week, I man the support e-mail inbox, and write the weekly round-up to keep the rest of the Three Rings team up to date on what the support team does!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+   	</div>
+</div>   
+
+<div id="zooniverseIntern" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Modal Header</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p> I am currently a Web Developer intern at Zooniverse </p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+   	</div>
+</div>  
+
+
+<div id="documentationVolunteer" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Modal Header</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p> I help keep the Three Rings documentation up to date. I recently spent a week in Wales with JTA and the dev team completely overhauling the whole documentation. </p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+   	</div>
+</div>  
 	
+
+
 
 
 <footer class="footer">
@@ -91,7 +130,4 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</body>
 </html>
