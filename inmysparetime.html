@@ -3,12 +3,10 @@
 <html lang="en-UK">
 
 <head>
-	
-	<title>What I Do In my Spare Time... </title>
-
+		<title>What I Do In my Spare Time... </title>
 	<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
 	<link rel='stylesheet' style='text/css' href='CSS.css'>
+
 </head>
 
 <body>
@@ -25,10 +23,14 @@
 <hr>
 
 
+
+<!-- Image rows-->
 <div class='container'>
 	<div class='row'>
 		<div class='col-sm-4 col-xs-12' style="text-align:center">
-			<img class='img-circle' src="images/Baking.JPG" alt="Charity Bake Sale Baking" width="200"> <br> 
+			<button id="bakingButton">
+				<img class='img-circle' src="images/Baking.JPG" alt="Charity Bake Sale Baking" width="200">
+			</button><br> 
 		</div>
 
 		<div class='col-sm-4 col-xs-12' style="text-align:center">
@@ -59,6 +61,30 @@
 		</div>
 	</div>
 </div>
+
+
+
+<!-- The Modal -->
+<div id="bakingModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    	<div class="container">
+    		<div class="row">
+    			<div class='col-sm-6 col-xs-12' style="text-align:center">
+					<img class='img-circle' src="images/Baking.JPG" alt="Charity Bake Sale Baking" width="400">
+				</div>
+    			<div class='col-sm-6 col-xs-12' style="text-align:center">
+					<h3 align='center'>Baking</h3>
+					<p> Baking is really fun!</p> 
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <div class='container'>
 	<div class='row'>
@@ -97,6 +123,35 @@
     <a href="https://twitter.com/beverleynewing" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
+
+<script>
+    // Get the modal
+var modal = document.getElementById('bakingModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("bakingButton");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
 </footer>
 
 </html>
