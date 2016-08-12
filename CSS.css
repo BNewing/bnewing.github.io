@@ -1,8 +1,5 @@
-body {
-  background-color: #464646;
-}
 
-body.homepage {
+body.homepage{
   background-image: url('images/Background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,11 +8,9 @@ body.homepage {
   color: #FCFBE3;
 }
 
-p {
-	text-align: center;
-  color: #FCFBE3;
+body {
+  background-color: #464646;
 }
-
 
 p.contact {
   text-align:left;
@@ -23,7 +18,7 @@ p.contact {
 }
 
 
-h1, h2, h3, h4 {
+p, h1, h2, h3, h4 {
   color: #FCFBE3;
   text-align: center;
 }
@@ -84,8 +79,8 @@ ul.nav {
 }
 
 /*sends the modal backdrop to behind the modal*/
-body.modal-open div.modal-backdrop { 
-    z-index: 0; 
+body.modal-open div.modal-backdrop {
+    z-index: 0;
 }
 
 /*background of the modal buttons*/
@@ -94,9 +89,9 @@ body.modal-open div.modal-backdrop {
 }
 
 
-  
+
  /* footer stuff */
- 
+
 html {
   position: relative;
   min-height: 100%;
