@@ -2,7 +2,7 @@
 
 Website for **Beverley Newing**.
 
-Website can be viewed at <a href="bnewing.github.io">bnewing.github.io</a>
+Website can be viewed at <a href="https://bnewing.github.io">bnewing.github.io</a>
 
 ---
 
