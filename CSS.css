@@ -1,5 +1,5 @@
 
-body.homepage{
+body{
   background-image: url('images/Background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,8 +8,21 @@ body.homepage{
   color: #FCFBE3;
 }
 
-body {
-  background-color: #464646;
+
+div.background{
+  background-color:#00473B;
+  opacity: 0.75;
+  z-index:-1;
+  margin: 5%;
+  border-radius: 25px;
+  padding-top: 2%;
+}
+
+div.homepageBackground{
+  background-color:#00473B;
+  opacity: 0.75;
+  z-index:-1;
+  border-radius: 25px;
 }
 
 p.contact {
@@ -21,6 +34,7 @@ p.contact {
 p, h1, h2, h3, h4 {
   color: #FCFBE3;
   text-align: center;
+  margin: 5px;
 }
 
 ul {
@@ -49,7 +63,7 @@ li.active {
 
 ul.nav {
   background-color:#000000;
-  opacity: 0.50
+  opacity: 0.50;
 }
 
 /* MODAL! */
@@ -86,6 +100,7 @@ body.modal-open div.modal-backdrop {
 /*background of the modal buttons*/
 .button{
   background: #ddccff;
+  align-content: center;
 }
 
 
