@@ -8,43 +8,40 @@ body{
   color: #FCFBE3;
 }
 
-
 div.background{
-  background-color:#00473B;
+  background-color: #C5EBC3;
   opacity: 0.75;
-  z-index:-1;
-  margin: 5%;
-  border-radius: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   padding-top: 2%;
 }
 
 div.homepageBackground{
-  background-color:#00473B;
+  background-color:#CED097;
   opacity: 0.75;
   z-index:-1;
   border-radius: 25px;
 }
 
-p.contact {
-  text-align:left;
-  color: #FCFBE3;
-}
 
-
-p, h1, h2, h3, h4 {
-  color: #FCFBE3;
+p, h1, h2, h3, h4{
+  color: #000000;
   text-align: center;
   margin: 5px;
 }
 
-ul {
-  color: #FCFBE3;
+li {
+  text-align: left;
+  margin: 5px;
+  color: #000000;
 }
 
 /*Link CSS*/
 
 a:link {
-  color: #00CC99;
+  color: #00CC66;
 }
 
 a:visited {
@@ -53,7 +50,7 @@ a:visited {
 }
 
 a:hover {
-  color: #00CC66;
+  color: #00CC99;
 }
 
 li.active {
@@ -94,19 +91,19 @@ ul.nav {
 
 /*sends the modal backdrop to behind the modal*/
 body.modal-open div.modal-backdrop {
-    z-index: 0;
+    z-index: -1;
 }
 
 /*background of the modal buttons*/
 .button{
-  background: #ddccff;
-  align-content: center;
+  background: #F0FFF0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px;
 }
 
 
-
- /* footer stuff */
-
+/* footer stuff */
 html {
   position: relative;
   min-height: 100%;
