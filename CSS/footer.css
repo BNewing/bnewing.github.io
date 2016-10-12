@@ -1,0 +1,29 @@
+/* footer stuff */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+}
+
+#share-buttons img {
+  float: right;
+  width: 45px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  background-color: black
+  opacity: 0.75;
+}

@@ -1,0 +1,20 @@
+div.background{
+  background-color: #CDDDDD;
+  opacity: 0.9;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-top: 2%;
+}
+
+div.homepageBackground{
+  background-color:#CDDDDD;
+  opacity: 0.75;
+  z-index:-1;
+  border-radius: 25px;
+}
+
+div.headerLabel {
+  float: right;
+}

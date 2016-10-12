@@ -1,0 +1,17 @@
+li {
+  text-align: left;
+  margin: 5px;
+}
+
+li.nav {
+  letter-spacing: 1.5px;
+  line-height: 2;
+  font-size: large;
+  border: solid 1px white;
+  background-color: #FFFFFF;
+}
+
+ul.nav {
+  background-color:#000000;
+  opacity: 0.65;
+}
