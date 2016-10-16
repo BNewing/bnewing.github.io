@@ -8,4 +8,4 @@ Website can be viewed at <a href="https://bnewing.github.io">bnewing.github.io</
 
 ## Screenshot
 
-<img alt="screenshot of home page" src=""./images/screenshot.png">
+<img alt="screenshot of home page" src="./images/screenshot.png">
