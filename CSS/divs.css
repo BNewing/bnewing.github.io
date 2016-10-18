@@ -18,3 +18,15 @@ div.homepageBackground{
 div.headerLabel {
   float: right;
 }
+
+div.bubble{
+  background-color: #CDDDDD;
+  opacity: 0.95;
+  border-radius: 75px;
+}
+
+.col {
+  padding: 2%;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
