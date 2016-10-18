@@ -25,8 +25,17 @@ div.bubble{
   border-radius: 75px;
 }
 
-.col {
+div.col {
   padding: 2%;
   background-clip: padding-box;
   border: 10px solid transparent;
+}
+
+div.blog {
+  background-color: #CDDDDD;
+  opacity: 0.9;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
+  padding-top: 2%;
 }
