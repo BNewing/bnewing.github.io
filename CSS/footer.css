@@ -19,6 +19,7 @@ body {
 
 #share-buttons img {
   float: right;
+  height: 45px;
   width: 45px;
   padding: 5px;
   border: 0;
