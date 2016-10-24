@@ -5,26 +5,17 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  padding-bottom: 6rem;
 }
 
 .footer {
   position: absolute;
+  right: 0;
   bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 40px;
-}
-
-#share-buttons img {
-  float: right;
-  height: 45px;
-  width: 45px;
-  padding: 5px;
-  border: 0;
-  box-shadow: 0;
-  display: inline;
-  background-color: black
-  opacity: 0.75;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 5%;
 }
