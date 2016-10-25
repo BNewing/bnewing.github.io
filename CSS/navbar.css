@@ -4,9 +4,8 @@ li {
 
 li.nav {
   letter-spacing: 1.5px;
-  line-height: 2;
+  line-height: 1.5;
   font-size: large;
-  border: solid 1px white;
   background-color: #FFFFFF;
 }
 

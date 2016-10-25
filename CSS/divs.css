@@ -23,6 +23,7 @@ div.bubble{
   background-color: #CDDDDD;
   opacity: 0.95;
   border-radius: 125px;
+  padding: 10px;
 }
 
 div.col {
