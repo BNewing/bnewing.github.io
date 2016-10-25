@@ -5,6 +5,7 @@ body{
   background-size: cover;
   background-color: #464646;
   font-family: courier;
+  padding-bottom: 6rem;
 }
 
 p, h1, h2, h3, h4{
