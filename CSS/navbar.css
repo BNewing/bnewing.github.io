@@ -13,3 +13,11 @@ ul.nav {
   background-color:#000000;
   opacity: 0.90;
 }
+
+li.active {
+  background-color: #FFFFFF;
+  border: solid 2px black;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: solid 2px;;
+}
