@@ -16,8 +16,9 @@ ul.nav {
 
 li.active {
   background-color: #FFFFFF;
-  border: solid 2px black;
   text-decoration: underline;
-  text-decoration-color: black;
-  text-decoration-style: solid 2px;;
+}
+
+li.active > a {
+  color: black;
 }
