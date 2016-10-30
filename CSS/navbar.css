@@ -28,4 +28,7 @@ li.active > a {
     line-height: normal;
     font-size: medium;
   }
+  .nav>li>a{
+    padding: 5px
+  }
 }
