@@ -22,3 +22,10 @@ li.active {
 li.active > a {
   color: black;
 }
+
+@media (max-width: 650px){
+  li.nav {
+    line-height: normal;
+    font-size: medium;
+  }
+}

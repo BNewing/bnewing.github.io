@@ -1,11 +1,15 @@
-@import 'navbar.css';
-
-@import 'divs.css';
-
-@import 'footer.css';
-
 @import '../bootstrap-3.3.6-dist/css/bootstrap.min.css';
 
-@import 'text-and-images.css';
+@import url("https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js");
 
-@import 'links.css';
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js");
+
+@import './navbar.css';
+
+@import './divs.css';
+
+@import './footer.css';
+
+@import './text-and-images.css';
+
+@import './links.css';
