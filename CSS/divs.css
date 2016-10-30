@@ -8,11 +8,11 @@ div.background{
   padding-top: 2%;
 }
 
-div.homepageBackground{
+div.homepageBubble{
   background-color:#CDDDDD;
   opacity: 0.75;
   z-index:-1;
-  border-radius: 25px;
+  border-radius: 75px;
 }
 
 div.headerLabel {
@@ -39,4 +39,14 @@ div.blog {
   margin-right: 5%;
   border-radius: 25px;
   padding-top: 2%;
+}
+
+@media (max-width: 650px){
+  div.bubble{
+    border-radius: 90px;
+    padding: 20px;
+  }
+  div.homepageBubble{
+    border-radius: 50px;
+  }
 }
