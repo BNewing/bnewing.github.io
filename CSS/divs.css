@@ -18,22 +18,12 @@ div.homepageBubble{
   border-radius: 75px;
 }
 
-div.headerLabel {
-  float: right;
-}
-
 div.bubble{
   background-color: #CDDDDD;
   opacity: 0.95;
-  border-radius: 125px;
+  border-radius: 75px;
   padding: 20px;
 
-}
-
-div.col {
-  padding: 2%;
-  background-clip: padding-box;
-  border: 35px solid transparent;
 }
 
 div.big-bubble {
@@ -50,6 +40,19 @@ div.big-bubble {
   opacity: 0.95;
   border-radius: 125px;
 }
+
+
+div.headerLabel {
+  float: right;
+}
+
+
+div.col {
+  padding: 2%;
+  background-clip: padding-box;
+  border: 35px solid transparent;
+}
+
 
 @media (max-width: 650px){
   div.bubble{
