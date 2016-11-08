@@ -18,6 +18,10 @@ h1 {
   color: #FFFFFF;
 }
 
+h2, h3 {
+  line-height: 2
+}
+
 img{
   display: block;
   margin-left: auto;
@@ -40,4 +44,8 @@ li{
   body {
     background-image: url('../images/BreakpointBackground.png');
   }
+}
+
+ul.CV{
+  text-align: center
 }

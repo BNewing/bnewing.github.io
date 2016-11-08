@@ -1,11 +1,14 @@
 div.background{
   background-color: #CDDDDD;
   opacity: 0.9;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding-top: 2%;
 }
 
 div.homepageBubble{
@@ -23,7 +26,8 @@ div.bubble{
   background-color: #CDDDDD;
   opacity: 0.95;
   border-radius: 125px;
-  padding: 10px;
+  padding: 20px;
+
 }
 
 div.col {
@@ -32,13 +36,19 @@ div.col {
   border: 35px solid transparent;
 }
 
-div.blog {
-  background-color: #CDDDDD;
-  opacity: 0.9;
-  margin-left: 5%;
-  margin-right: 5%;
-  border-radius: 25px;
+div.big-bubble {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 2%;
+  padding-bottom:2%;
+  border-radius: 35px;
+  background-color: #CDDDDD;
+  opacity: 0.95;
+  border-radius: 125px;
 }
 
 @media (max-width: 650px){
