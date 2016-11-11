@@ -62,4 +62,11 @@ div.col {
   div.homepageBubble{
     border-radius: 50px;
   }
+  div.background{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
 }
