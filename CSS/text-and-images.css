@@ -18,6 +18,11 @@ h1 {
   color: #FFFFFF;
 }
 
+h1.CV {
+  color: black;
+  margin: 10px
+}
+
 h2, h3 {
   line-height: 2
 }
