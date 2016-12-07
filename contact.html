@@ -79,8 +79,12 @@
 
 			<div class="col-md-6 col-md-offset-3">
 				<h1 class="page-header text-center">Contact Form Example</h1>
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLT-lghu_2TllJ6tVL5byWd_ktX6Q34CEqL172sK0rY2ODyQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-				</div>
+				<form method="POST" action="http://formspree.io/beverley.newing@gmail.com">
+					<input type="text" name="name" placeholder="Your name">
+				  <input type="email" name="email" placeholder="Your email">
+				  <textarea name="message" placeholder="Your message"></textarea>
+				  <button type="submit">Send</button>
+				</form>
 		</div>
 	</div>
 </div>
