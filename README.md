@@ -1,4 +1,4 @@
-# Beverley Newing
+# Personal Website
 
 This is my personal website. It contains my CV, info about my code portfolio, links to all of the blog posts that I've written on various sites and a contact page with a contact form.
 
