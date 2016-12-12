@@ -8,9 +8,9 @@ You can view the project here:
 
 ## 1. Technologies Used
 
-HTML
-CSS
-[Formspree.io](https://formspree.io/)
+- HTML
+- CSS
+- [Formspree.io](https://formspree.io/)
 
 ## 2. How to Set Up the Dev Environment
 
