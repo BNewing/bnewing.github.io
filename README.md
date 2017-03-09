@@ -15,7 +15,17 @@ You can view the project here:
 
 ## 2. How to Set Up the Dev Environment
 
-Nothing in particular is required to run this. It is a fairly basic HTML/CSS project - for now!
+After cloning the project, you'll need to run: 
+
+`npm install`
+
+from the command line.
+
+Every time you change the SASS, you'll need to run: 
+
+`gulp sass`
+
+to recompile the CSS.
 
 ## 3. How to Suggest a Change
 
