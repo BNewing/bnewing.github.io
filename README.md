@@ -9,7 +9,8 @@ You can view the project here:
 ## 1. Technologies Used
 
 - HTML
-- CSS
+- SASS
+- Gulp
 - [Formspree.io](https://formspree.io/)
 
 ## 2. How to Set Up the Dev Environment
