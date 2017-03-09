@@ -36,6 +36,6 @@ https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 ## 4. What the Project Looks Like
 
-<img alt="screenshot of home page" src="./images/screenshot.png">
+<img alt="screenshot of home page" src="./static/screenshot.png">
 
 -Test
