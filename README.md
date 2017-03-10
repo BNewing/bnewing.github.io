@@ -33,7 +33,7 @@ Every time you change the SASS, you'll need to run:
 
 `gulp sass`
 
-to recompile the CSS.
+to recompile the CSS. This will also run autoprefixer and sourcemaps.
 
 ## 4. How to Suggest a Change
 
