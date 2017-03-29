@@ -6,21 +6,20 @@ li.nav {
   letter-spacing: 1.5px;
   line-height: 1.5;
   font-size: large;
-  background-color: #FFFFFF;
+  background-color: $nav-bar-background;
 }
 
 ul.nav {
-  background-color:#000000;
+  background-color: $color-behind-navbar;
   opacity: 0.90;
 }
 
 li.active {
-  background-color: #FFFFFF;
   text-decoration: underline;
 }
 
 li.active > a {
-  color: black;
+  color: $black-text;
 }
 
 @media (max-width: 650px){
