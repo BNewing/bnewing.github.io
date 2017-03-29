@@ -1,5 +1,5 @@
 div.background{
-  background-color: #CDDDDD;
+  background-color: $bubble-background;
   opacity: 0.9;
   margin-left: 15%;
   margin-right: 15%;
@@ -12,14 +12,14 @@ div.background{
 }
 
 div.homepageBubble{
-  background-color:#CDDDDD;
+  background-color: $bubble-background;
   opacity: 0.75;
   z-index:-1;
   border-radius: 75px;
 }
 
 div.bubble{
-  background-color: #CDDDDD;
+  background-color: $bubble-background;
   opacity: 0.95;
   border-radius: 75px;
   padding: 20px;
@@ -36,7 +36,7 @@ div.big-bubble {
   padding-top: 2%;
   padding-bottom:2%;
   border-radius: 35px;
-  background-color: #CDDDDD;
+  background-color: $bubble-background;
   opacity: 0.95;
   border-radius: 125px;
 }
