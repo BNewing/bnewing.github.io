@@ -30,7 +30,7 @@ gulp.task('html', function() {
 	.pipe(connect.reload());
 });
 
-gulp.task('default', ['sass', 'watch', 'connect']);
+gulp.task('default', ['sass', 'connect', 'watch']);
 
 
 
