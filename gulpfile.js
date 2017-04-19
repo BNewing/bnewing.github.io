@@ -19,7 +19,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('connect', function() {
-	connect.server()({
+	connect.server({
 		root: './',
 		livereload: true
 	});
