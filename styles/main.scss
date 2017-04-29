@@ -1,8 +1,10 @@
 /*Base*/
-@import './base/navbar.scss';
+@import './base/global-variables.scss';
+
 @import './base/footer.scss';
-@import './base/text-and-images.scss';
-@import './base/links.scss';
+@import './base/typography.scss';
+@import './base/navbar.scss';
+@import './base/images.scss';
 
 /*Components*/
 @import './components/divs.scss';

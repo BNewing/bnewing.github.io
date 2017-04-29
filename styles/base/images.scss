@@ -4,24 +4,8 @@ body{
   background-attachment: fixed;
   background-size: cover;
   background-color: $body-background-color;
-  font-family: courier;
-  padding-bottom: 6rem;
 }
 
-p, h1, h2, h3, h4{
-  color: $black-text;
-  text-align: center;
-  margin: 0px;
-  padding: 10px;
-}
-
-h1.CV {
-  margin: 10px
-}
-
-h1.homepage {
-  color: $white-text;
-}
 
 img{
   display: block;
@@ -37,10 +21,7 @@ img.logo{
   width: 80px;
 }
 
-li{
-  line-height: 1.5;
-  padding: 16px;
-}
+
 
 @media (max-width: 650px){
   body {
@@ -48,6 +29,3 @@ li{
   }
 }
 
-ul.CV {
-  text-align: center
-}

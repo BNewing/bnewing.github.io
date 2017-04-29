@@ -5,7 +5,7 @@ var autoprefixer 	= require('gulp-autoprefixer');
 var connect 		= require('gulp-connect');
 
 gulp.task('sass', function() {
-	return gulp.src('./styles/components/main.scss')
+	return gulp.src('./styles/main.scss')
 	.pipe(sourcemaps.init())
 	.pipe(sass().on('error', sass.logError))
 	.pipe(sourcemaps.write())
@@ -19,7 +19,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('connect', function() {
-	connect.server()({
+	connect.server({
 		root: './',
 		livereload: true
 	});
