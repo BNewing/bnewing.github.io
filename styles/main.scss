@@ -1,11 +1,14 @@
-/*Base*/
-@import './base/global-variables.scss';
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta');
 
-@import './base/footer.scss';
-@import './base/typography.scss';
-@import './base/navbar.scss';
-@import './base/images.scss';
+/*Base*/
+@import './base/global-variables';
+
+@import './base/footer';
+@import './base/typography';
+@import './base/navbar';
+@import './base/images';
 
 /*Components*/
-@import './components/divs.scss';
-@import './components/contact-form.scss';
+@import './components/divs';
+@import './components/contact-form';

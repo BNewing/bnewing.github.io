@@ -1,0 +1,46 @@
+//Base
+body {
+  font-family: 'Ek Mukta', serif;
+  padding-bottom: 6rem;
+}
+
+//General Typography
+p, h1, h2, h3, h4 {
+  color: $black-text;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+li{
+  line-height: 1.5;
+  padding-bottom: 16px;
+}
+
+//Links
+a:link {
+  color: $link;
+}
+
+a:visited {
+  text-decoration: none;
+  color: $link;
+}
+
+a:hover {
+  color: $visited-link;
+}
+
+
+//Specific classed elements
+h1.CV {
+  margin: 10px
+}
+
+h1.homepage {
+  color: $white-text;
+}
+
+ul.CV {
+  text-align: center
+}
