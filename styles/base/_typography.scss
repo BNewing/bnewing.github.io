@@ -2,7 +2,14 @@
 body {
   font-family: 'Ek Mukta', serif;
   padding-bottom: 6rem;
+  font-size: 100%;
 }
+
+// Font sizes
+p,li, a {
+  font-size: 18px;
+}
+
 
 //General Typography
 p, h1, h2, h3, h4 {
@@ -12,7 +19,8 @@ p, h1, h2, h3, h4 {
   padding: 10px;
 }
 
-li{ 
+
+li{
   line-height: 1.5;
   padding-bottom: 16px;
 }

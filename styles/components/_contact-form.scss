@@ -1,8 +1,10 @@
 input {
   width: 90%;
-  height: 30px;
   border-radius: 7px;
   margin: 10px;
+  border: 1px solid $border;
+  font-size: 18px;
+  padding: 7px;
 }
 
 textarea {
@@ -10,8 +12,22 @@ textarea {
   height: 150px;
   border-radius: 7px;
   margin: 10px;
+  border: 1px solid $border;
+  font-size: 18px;
+  padding: 7px;
 }
 
 form {
   text-align: center;
+}
+
+button {
+	font-size: 20px;
+	border-radius: 3px;
+	background-color: $button;
+	padding: 7px 15px;
+	border: 1px solid $border;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(47, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 2px 0px rgba(47, 50, 50, 0.75);
+	box-shadow:         2px 2px 2px 0px rgba(47, 50, 50, 0.75);
 }
