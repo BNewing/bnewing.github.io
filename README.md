@@ -9,6 +9,7 @@ You can view the project here:
 ## 1. Technologies Used
 
 - HTML
+- Bootstrap
 - SASS
 - Gulp
 - [Formspree.io](https://formspree.io/)
@@ -46,4 +47,3 @@ https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 <img alt="screenshot of home page" src="./static/screenshot.png">
 
--Test
