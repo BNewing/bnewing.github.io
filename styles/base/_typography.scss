@@ -1,5 +1,5 @@
 /*-------- BASE --------*/
-html {
+html, body {
   font-family: 'Ek Mukta', serif;
   font-size: 100%;
 }
@@ -12,13 +12,13 @@ p, li, a {
 p, h1, h2, h3, h4, legend {
   color: $black-text;
   text-align: center;
-  margin: 0px;
-  padding: 10px;
+  margin: 0;
+  padding: 0.5rem;
 }
 
 li {
   line-height: 1.5;
-  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
 /*-------- LINKS --------*/
