@@ -20,14 +20,3 @@ textarea {
 form {
   text-align: center;
 }
-
-button, .button {
-	font-size: 20px;
-	border-radius: 3px;
-	background-color: $button;
-	padding: 7px 15px;
-	border: 1px solid $border;
-	-webkit-box-shadow: 2px 2px 2px 0px rgba(47, 50, 50, 0.75);
-	-moz-box-shadow:    2px 2px 2px 0px rgba(47, 50, 50, 0.75);
-	box-shadow:         2px 2px 2px 0px rgba(47, 50, 50, 0.75);
-}

@@ -1,12 +1,3 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 6rem;
-}
-
 .footer {
   position: absolute;
   right: 0;
@@ -18,17 +9,29 @@ body {
   margin-top: 5%;
   background-color: $footer-background;
   opacity: 0.90;
+  &__img {
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin-right: 10px;
+  }
+  &__name {
+    margin-left: 90px;
+  }
+  &__logo {
+    height: 80px;
+    width: 80px;
+  }
 }
 
-.footerImg {
-  height: 35px;
-  width: 35px;
-  float: right;
-  margin-right: 10px;
+/*-- Positioning --*/
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.footer__name {
-  margin-left: 90px;
+body {
+  margin-bottom: 6rem;
 }
 
 div.span {
