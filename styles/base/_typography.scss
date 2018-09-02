@@ -1,5 +1,5 @@
 /*-------- BASE --------*/
-body {
+html {
   font-family: 'Ek Mukta', serif;
   font-size: 100%;
 }
@@ -16,7 +16,7 @@ p, h1, h2, h3, h4, legend {
   padding: 10px;
 }
 
-li{
+li {
   line-height: 1.5;
   padding-bottom: 16px;
 }
@@ -24,23 +24,11 @@ li{
 /*-------- LINKS --------*/
 a {
   color: $link;
-}
-
-a:visited {
-  text-decoration: none;
-  color: $link;
-}
-
-a:hover {
-  color: $visited-link;
-}
-
-
-//Specific classed elements
-h1.CV {
-  margin: 10px
-}
-
-ul.CV {
-  text-align: center
+  &:visited {
+    text-decoration: none;
+    color: $link;
+  }
+  &:hover {
+    color: $visited-link;
+  }
 }
