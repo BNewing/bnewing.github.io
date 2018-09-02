@@ -1,29 +1,25 @@
 body {
-  background-image: url('../static/Background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: $body-background-color url('../static/Background.jpg') no-repeat fixed;
   background-size: cover;
-  background-color: $body-background-color;
   @media (max-width: 650px){
     background-image: url('../static/BreakpointBackground.png');
   }
 }
 
-img {
+img { 
+  border-radius: 50%;
   display: block;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
   width: 150px;
-  border-radius: 50%;
 }
 
 .talk-photos {
-  text-align: center;
   margin: 2em;
   &__img {
     display: inline;
-  margin: 0 1em;
+    margin: 0 1em;
   }
 }
 

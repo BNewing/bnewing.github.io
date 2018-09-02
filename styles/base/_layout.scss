@@ -1,0 +1,37 @@
+.background{
+  background-color: $bubble-background;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  opacity: 0.95;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  text-align: center;
+  @media (max-width: 650px){
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.bubble {
+  background-color: $bubble-background;
+  opacity: 0.95;
+  border-radius: 75px;
+  padding: 20px;
+  @media (max-width: 650px){
+    border-radius: 90px;
+    padding: 20px;
+  }
+}
+
+.col {
+  padding: 2%;
+  background-clip: padding-box;
+  border: 35px solid transparent;
+}
+
