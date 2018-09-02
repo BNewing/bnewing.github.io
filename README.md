@@ -4,7 +4,7 @@ This is my personal website. It contains my CV, info about my code portfolio, li
 
 You can view the project here:
 
-[webdevbev.co.uk](http://webdevbev.co.uk)
+[https://webdevbev.co.uk](https://webdevbev.co.uk)
 
 ## 1. Technologies Used
 
