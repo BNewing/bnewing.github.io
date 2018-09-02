@@ -1,15 +1,14 @@
-//Base
+/*-------- BASE --------*/
 body {
   font-family: 'Ek Mukta', serif;
   font-size: 100%;
 }
 
-// Font sizes
+/*-------- GENERAL TYPOGRAPHY --------*/
 p, li, a {
-  font-size: 18px;
+  font-size: $font-size-2;
 }
 
-//General Typography
 p, h1, h2, h3, h4, legend {
   color: $black-text;
   text-align: center;
@@ -22,7 +21,7 @@ li{
   padding-bottom: 16px;
 }
 
-//Links
+/*-------- LINKS --------*/
 a {
   color: $link;
 }
@@ -40,10 +39,6 @@ a:hover {
 //Specific classed elements
 h1.CV {
   margin: 10px
-}
-
-h1.homepage {
-  color: $white-text;
 }
 
 ul.CV {
