@@ -1,15 +1,16 @@
 button, .button {
-	font-size: 20px;
-	border-radius: 3px;
+	font-size: $font-size-3;
+	border-radius: 0.25rem;
 	background-color: $button;
-	padding: 7px 15px;
+	padding: 0.5rem 1rem;
 	color: $black-text;
 	border: 1px solid $border;
-	-webkit-box-shadow: 2px 2px 2px 0px rgba(47, 50, 50, 0.75);
-	-moz-box-shadow:    2px 2px 2px 0px rgba(47, 50, 50, 0.75);
-	box-shadow:         2px 2px 2px 0px rgba(47, 50, 50, 0.75);
-	&:hover, :active, :focus {
-		border: 2px solid black;
+	-webkit-box-shadow: 0.125rem 0.125rem 0.125rem 0 rgba(47, 50, 50, 0.75);
+	-moz-box-shadow:    0.125rem 0.125rem 0.125rem 0 rgba(47, 50, 50, 0.75);
+	box-shadow:         0.125rem 0.125rem 0.125rem 0 rgba(47, 50, 50, 0.75);
+	border: 0.125rem solid transparent;
+	&:hover, &:active, &:focus {
+		border: 0.125rem solid black;
 		-webkit-box-shadow: 0 0 0 0 rgba(47, 50, 50, 0.75);
 		-moz-box-shadow:    0 0 0 0 rgba(47, 50, 50, 0.75);
 		box-shadow:         0 0 0 0 rgba(47, 50, 50, 0.75);

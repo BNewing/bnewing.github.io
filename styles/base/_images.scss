@@ -1,7 +1,7 @@
 body {
   background: $body-background-color url('../static/Background.jpg') no-repeat fixed;
   background-size: cover;
-  @media (max-width: 650px){
+  @media (max-width: 40.625rem){
     background-image: url('../static/BreakpointBackground.png');
   }
 }
@@ -9,17 +9,17 @@ body {
 img { 
   border-radius: 50%;
   display: block;
-  height: 150px;
+  height: 10rem;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 10rem;
 }
 
 .talk-photos {
-  margin: 2em;
+  margin: 2rem;
   &__img {
     display: inline;
-    margin: 0 1em;
+    margin: 0 1rem;
   }
 }
 
