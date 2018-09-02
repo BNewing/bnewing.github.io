@@ -23,10 +23,15 @@ li.active > a {
   color: $black-text;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
+.nav>li>a {
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  &:hover, &:focus, &:active {
     border: 2px solid black;
     color: $black-text;
     text-decoration: none;
+
+  }
 }
 
 @media (max-width: 650px){
