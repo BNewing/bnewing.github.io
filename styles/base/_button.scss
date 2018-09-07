@@ -17,14 +17,4 @@ button, .button {
 		color: $black-text;
 		text-decoration: none;
 	}
-	&__homepage {
-		color: $black-text;
-		display: inline-block;
-		margin: 1em;
-		text-align: center;
-    	width: 8em;
-    	&:visited {
-    		color: $black-text;
-    	}
-	}
 }
