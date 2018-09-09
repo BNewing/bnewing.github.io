@@ -2,6 +2,11 @@
 html, body {
   font-family: 'Ek Mukta', serif;
   font-size: 100%;
+  line-height: 1.5;
+}
+
+main * + * {
+  margin-top: 1.5rem;
 }
 
 /*-------- GENERAL TYPOGRAPHY --------*/
@@ -11,14 +16,7 @@ p, li, a {
 
 p, h1, h2, h3, h4, legend {
   color: $black-text;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0.5rem;
   text-align: center;
-}
-
-p, li {
-  margin-bottom: 1em;
 }
 
 .intro-text {
@@ -27,10 +25,6 @@ p, li {
     border-bottom: 0.0625rem solid #eee;
 }
 
-// li {
-//   line-height: 1.5;
-//   padding-bottom: 1rem;
-// }
 
 /*-------- LINKS --------*/
 a {
