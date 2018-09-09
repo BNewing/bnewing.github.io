@@ -17,4 +17,7 @@ button, .button {
 		color: $black-text;
 		text-decoration: none;
 	}
+	&:visited {
+		color: $black-text;
+	}
 }

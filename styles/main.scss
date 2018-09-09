@@ -10,8 +10,10 @@
 @import './base/images';
 @import './base/button';
 @import './base/layout';
+@import './base/accessibility';
 
 /*Components*/
 
 @import './components/contact-form';
 @import './components/bio';
+@import './components/card';

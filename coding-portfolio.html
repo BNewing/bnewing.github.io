@@ -53,53 +53,79 @@
 	<main>
 		<div class="background">
 			<h1>Coding Portfolio</h1>
-			<p class="intro-text">Here is collection of some of my coding projects, which can be found on my <a href="https://github.com/BNewing/">GitHub account</a>. I'm also <a href="https://codepen.io/WebDevBev/">WebDevBev</a> on codepen, where I mess around with CSS sometimes!</p>
-
-			<h2><a href="https://github.com/BNewing/geese-games">Geese Games</a></h2>
-			<p>This is a fun learning project to brush up on my React skills. View different types of geese on the 'Geese info' page, check out more info about each goose type on it's individual info page, and then put your knowledge to the test on the quiz!</p>
+			<p class="intro-text">Here is a small collection of my favourite coding projects, which I've been working on lately.  The full list of things I've been working on can be found on my <a href="https://github.com/BNewing/">GitHub account</a>. I'm also <a href="https://codepen.io/WebDevBev/">WebDevBev</a> on codepen, where I mess around with CSS sometimes!</p>
+			
 			<ul>
-				<li>React single-page web app</li>
-				<li>React Router for page routing</li>
-				<li>Styled-components for CSS</li>
+				<li class="card">
+					<header class="card__header">
+						<h2 class="card__header--title">Geese Games</h2>
+					</header>
+					
+					<div class="card__main-body-container">
+						<div class="card__tag-container">
+							<p class="card__tags-label">Technologies used:</p>
+							<p class="card__tag">ES6</p>
+							<p class="card__tag">React</p>
+							<p class="card__tag">Styled-components</p>
+						</div>
+
+						<img class="card__image" src="./static/GeeseGames.png" alt="" />
+						<p class="card__text">First off, visit the 'Geese info' page to see all of the different types. On this page, you can click on each individual goose type to go to a page containing more detailed information about that goose. Then, you can put your knowledge to the test on the 'Quiz' page!</p>
+					</div>
+
+					<footer class="card__footer">
+						<a href="https://webdevbev.co.uk/geese-games/" class="card__footer--button button">View website <span class="visually-hidden">for Geese Games</span></a>
+						<a href="https://github.com/BNewing/geese-games" class="card__footer--button button">View code <span class="visually-hidden">for Geese Games</span></a>
+					</footer>
+				</li>
+				
+				<li class="card">
+					<header class="card__header">
+						<h2 class="card__header--title">WebDevBev.co.uk - Personal Website</h2>
+					</header>
+					
+					<div class="card__main-body-container">
+						<div class="card__tag-container">
+							<p class="card__tags-label">Technologies used:</p>
+							<p class="card__tag">HTML5</p>
+							<p class="card__tag">CSS3</p>
+						</div>
+
+						<img class="card__image" src="./static/screenshot.png" alt="" />
+						<p class="card__text">This website is my personal site, which I've been iterating on for the past two years. It's a place where I try out new design ideas, component patterns and CSS. It currently uses Bootstrap 3 for the grid layout, and I've kept accessibility at the forefront of all coding for this site (although there is always room for improvement!)</p>
+					</div>
+
+					<footer class="card__footer">
+						<a href="https://webdevbev.co.uk/" class="card__footer--button button">View website <span class="visually-hidden">for "WebDevBev" Personal Website</span></a>
+						<a href="https://github.com/BNewing/bnewing.github.io" class="card__footer--button button">View code <span class="visually-hidden">for "WebDevBev" Personal Website</span></a>
+					</footer>
+				</li>
+
+				<li class="card">
+					<header class="card__header">
+						<h2 class="card__header--title">57 Exercises for Programmers</h2>
+					</header>
+					
+					<div class="card__main-body-container">
+						<div class="card__tag-container">
+							<p class="card__tags-label">Technologies used:</p>
+							<p class="card__tag">ES6</p>
+						</div>
+
+						<img class="card__image" src="./static/57Exercises.png" alt="" />
+						<p class="card__text">I'm currently working through '57 Exercises for Programmers' by Brian P. Hogan to improve my JavaScript. I started this two years ago, and I've recently restarted it. I'm currently refactoring the old HTML/CSS to improve the accessibility of it, and working through exercises I haven't tackled yet. I'm currently in the process of putting in automated tests for each exercise.</p>
+					</div>
+
+					<footer class="card__footer">
+						<a href="https://webdevbev.co.uk/JavaScript-57-Exercises-for-Programmers/" class="card__footer--button button">View website <span class="visually-hidden">for "57 Exercises for Programmers"</span></a>
+						<a href="https://github.com/BNewing/JavaScript-57-Exercises-for-Programmers" class="card__footer--button button">View code <span class="visually-hidden">for "57 Exercises for Programmers"</span></a>
+					</footer>
+					
+				</li>
+
 			</ul>
 
-			<h2><a href="https://zooniverse.org">Zooniverse Front End Contributions</a></h2>
-			<p>I first created the <a href="https://www.zooniverse.org/get-involved">Volunteering page</a>, (which used to live on the About page)
-			which contains information about the various ways in which you can volunteer with the Zooniverse.
-			After this, I co-wrote and create the webpage for the <a href="https://www.zooniverse.org/glossary">Glossary page</a>.
-			My next task was to create the <a href="https://www.zooniverse.org/get-involved/callForProjects">Call for Projects page</a>
-			for another team member, and then as a result of this task I ended up creating a whole
-			new navbar section - the <a href="https://www.zooniverse.org/get-involved">Get Involved section</a>.</p>
-			<ul>
-				<li>React - tweaks and edits to create the above-mentioned pages </li>
-				<li>Webpack</li>
-				<li>Understood and worked with the structure and rules of a big codebase</li>
-				<li>Worked with a team</li>
-			</ul>
-
-			<h2><a href="https://github.com/BNewing/to-do-list-v2">To Do List App</a></h2>
-			<p>Create items and then drag and drop items between the lists, 'To Do' and 'Done'.
-			Clicking on the status label will flip it to the opposite status and move item into that list.
-			The label also reacts to which list its in when dragged and dropped.
-			Maximum of ten items - because if you have more than ten things
-			to do, you should stop adding stuff and start doing stuff ;)</p>
-			<ul>
-				<li>Pure JavaScript - no jQuery (wanted to make it harder)</li>
-				<li>Drag and drop functionality (touch and mouse)</li>
-				<li>Pre-processor - Stylus</li>
-				<li>CSS modules</li>
-				<li>Bundled up with Webpack</li>
-			</ul>
-
-			<h2><a href="https://github.com/BNewing/bnewing.github.io">This Website</a></h2>
-			<p> This website is for grouping information together about me, my code portfolio and
-			blog posts that I've written. I've used <a href="https://daneden.github.io/animate.css/" target="_blank">animate.css</a> for the little animations, and <a href="https://formspree.io/">formspree</a> for the contact form. </p>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>Twitter Bootstrap</li>
-				<li>Mobile Responsive</li>
-			</ul>
+			
 
 		</div>
 	</main>
