@@ -1,0 +1,27 @@
+.blog {
+	&__title {
+		text-align: center;
+	}
+	&__date {
+		text-align: center;
+	}
+	&__button-container {
+		text-align: center;
+		margin: 3em;
+	}
+	&__image {
+  		width: auto;
+  		border-radius: 1rem;
+  		height: 15rem;
+  		margin-top: 1.5rem;
+  		@media(max-width: 48rem) {
+  			height: 12.5rem;
+  		}
+  		@media (max-width: 40.625rem) {
+  			height: 10rem;	
+  		}
+	}
+	&__subtitle {
+		text-align: center;
+	}
+}
