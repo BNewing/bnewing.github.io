@@ -14,10 +14,10 @@
 	}
 	&__photo {
 		float: left;
-		margin-right: 3em;
-		-webkit-shape-outside: circle();
-		shape-outside: circle();
 		height: 13rem;
+		margin-right: 3em;
+		shape-outside: circle();
+		-webkit-shape-outside: circle();
   		width: 13rem;
 	  	@media (max-width: 767px) {
 	    	float: unset;
