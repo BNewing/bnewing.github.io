@@ -1,20 +1,20 @@
-/*Font*/
+/*-------- FONT --------*/
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta');
 
-/*Base*/
-@import './base/global-variables';
-
-@import './base/footer';
-@import './base/typography';
-@import './base/navbar';
-@import './base/images';
-@import './base/button';
-@import './base/layout';
+/*-------- BASE--------*/
 @import './base/accessibility';
+@import './base/global-variables';
+@import './base/layout';
+@import './base/typography';
 
-/*Components*/
-
+/*-------- COMPONENTS; --------*/
+@import './components/button';
 @import './components/contact-form';
-@import './components/bio';
 @import './components/card';
-@import './components/blog';
+@import './components/footer';
+@import './components/images';
+@import './components/navbar';
+
+/*-------- PAGES --------*/
+@import './pages/bio';
+@import './pages/blog';

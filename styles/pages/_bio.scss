@@ -1,12 +1,12 @@
 .bio {
 	&__button {
-		color: $black-text;
+		color: $black;
 		display: inline-block;
 		margin: 1em;
 		text-align: center;
     	width: 8em;
     	&:visited {
-    		color: $black-text;
+    		color: $black;
     	}
 	}
 	&__button-container {

@@ -1,6 +1,6 @@
 // change to page-content
 .background {
-  background-color: $bubble-background;
+  background-color: $background;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
   margin: 0 15%;
@@ -15,7 +15,7 @@
 }
 
 .bubble {
-  background-color: $bubble-background;
+  background-color: $background;
   opacity: 0.95;
   border-radius: 4.5rem;
   padding: 1.25rem;
