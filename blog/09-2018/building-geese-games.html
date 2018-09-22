@@ -14,6 +14,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
+    <!-- Indie web webmentions -->
+	<link rel="webmention" href="https://webmention.io/webdevbev.co.uk/webmention" />
+
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,6 +25,29 @@
 
 		ga('create', 'UA-87248628-1', 'auto');
 		ga('send', 'pageview');
+	</script>
+
+	<script>
+		// Pulls in webmentions
+		fetch('https://webmention.io/api/mentions?target=https://webdevbev.co.uk/blog/09-2018/building-geese-games.html')
+		  .then(
+		    function(response) {
+		      if (response.status !== 200) {
+		        console.log('Looks like there was a problem. Status Code: ' +
+		          response.status);
+		        return;
+		      }
+
+		      // Examine the text in the response
+		      response.json().then(function(data) {
+		      	const entryPoint = document.getElementById('webmentions')
+		        entryPoint.innerHTML = data.links[0].activity.sentence;
+		      });
+		    }
+		  )
+		  .catch(function(err) {
+		    console.log('Fetch Error :-S', err);
+		  });
 	</script>
 </head>
 
@@ -90,12 +116,13 @@
 					<p>There are still some things I want to do. I want to tidy up some of the React structure and JS, and in the process add in Redux. It doesn't necessarily need Redux, but I'd like to practise Redux. Another thing; the site isn't particularly mobile responsive at the moment, which is also something I want to improve, and the CSS could be improved a lot. I have plans for something else I want to work on next, but I'm sure I'll dip into the project here and there though over the next few weeks!</p>
 
 					<h2 class="blog__subtitle">Thanks yous</h2>
-					<p>Huge thank you to the people who’ve helped me out with this project along the way, either with technical advice, moral support or project suggestions: Alex Bokii, Pete West, Henry Blyth, Marilyn Magnusen and Bob Whitehall.</p>
+					<p>Huge thank you to the people who’ve helped me out with this project along the way, either with technical advice, moral support or project suggestions: Alex Bokii, Pete West, <a href="https://henryblyth.com/">Henry Blyth</a>, Marilyn Magnusen and Bob Whitehall.</p>
 				</div>
 				
 				<div class="blog__button-container">
 					<a href="https://webdevbev.co.uk/geese-games" class="button blog__button">Check out "Geese Games"!</a>
 				</div>
+				<p id="webmentions"></p>
 
 			</article>
 		</div>
