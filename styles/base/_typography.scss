@@ -30,12 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-------- LINKS --------*/
 a {
-  color: $link;
+  color: $green;
   &:visited {
     text-decoration: none;
-    color: $link;
+    color: $green;
   }
   &:hover {
-    color: $visited-link;
+    color: $blue;
   }
 }

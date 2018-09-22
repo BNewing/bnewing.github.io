@@ -1,12 +1,12 @@
 /*-------- COLOURS --------*/
-$background: 			#464646;
-$visited-link: 			#0099CC;
-$background: 			#CDDDDD;
-$link: 					#008100;
-$border: 				#7E7E7E;
-$button: 				#FFCC11;
-$black: 				#000000; 
-$white: 				#FFFFFF;
+$black: 				#000000; // used for most text
+$blue: 					#0099CC; // used on visited links
+$green: 				#008100; // used on unvisited links and blog tags
+$grey: 					#464646; // used for footer background
+$light-grey: 			#7E7E7E; // used on input box border
+$mint-green: 			#CDDDDD; // used as body text background
+$white: 				#FFFFFF; // used for some text
+$yellow: 				#FFCC11; // used on button backgrounds
 
 /*-------- FONT SIZES --------*/
 $font-size-1: 			1rem; 		//16px
