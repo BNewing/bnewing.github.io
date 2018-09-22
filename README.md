@@ -1,8 +1,8 @@
 # Personal Website
 
-This is my personal website. It contains my CV, info about my code portfolio, links to all of the blog posts that I've written on various sites and a contact page with a contact form.
+This is my personal website. It contains my CV, info about my code portfolio, links to all of the blog posts that I've written on various sites and a contact page with a contact form. It passes Level 1 and Level 2 of the [IndieWeb](https://indiewebify.me/)
 
-You can view the project here:
+You can view the site here:
 
 [https://webdevbev.co.uk](https://webdevbev.co.uk)
 
@@ -13,6 +13,7 @@ You can view the project here:
 - SASS
 - Gulp
 - [Formspree.io](https://formspree.io/)
+- [Webmention.io](https://webmention.io)
 
 ## 2. Folder Structure
 

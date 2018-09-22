@@ -40,14 +40,49 @@
 
 		      // Examine the text in the response
 		      response.json().then(function(data) {
-		      	const entryPoint = document.getElementById('webmentions')
-		        entryPoint.innerHTML = data.links[0].activity.sentence;
+
+		      	// Add in reposts - broken atm
+
+		    //   	for (i = 0; i < data.links.length; i++){
+		    //     	if (data.links[i].activity.type == "repost"){
+		    //     		const entryPoint = document.getElementById('webmentions')
+						// dataToPost = data.links[0].activity.sentence;
+						// const p = document.createElement('p');
+						// p.innerHTML = dataToPost;
+						// entryPoint.appendChild(p);
+		    //     	}
+		    //     }
+		      	
+
+		        // Twitter likes
+
+		        console.log(data);
+
+		        for (i = 0; i < data.links.length; i++){
+		        	if (data.links[i].activity.type == "like"){
+		        		let imgSrc = data.links[i].data.author.photo;
+				        let imgAlt = data.links[i].data.author.name;
+				        
+				        var img = document.createElement('img');
+						img.setAttribute('src', imgSrc);
+						img.setAttribute('alt', imgAlt);
+						img.setAttribute('class', 'twitter-like');
+
+						const twitterLikeSection = document.getElementById('twitter-like-section');
+						const imgToPost = img.toString();
+				        twitterLikeSection.appendChild(img);
+		        	}
+		        	
+		        }
+
 		      });
 		    }
 		  )
 		  .catch(function(err) {
 		    console.log('Fetch Error :-S', err);
 		  });
+
+
 	</script>
 </head>
 
@@ -122,7 +157,15 @@
 				<div class="blog__button-container">
 					<a href="https://webdevbev.co.uk/geese-games" class="button blog__button">Check out "Geese Games"!</a>
 				</div>
-				<p id="webmentions"></p>
+
+				<h2>Social media responses</h2>
+
+				<h3 id="webmentions">Reposts</h3>
+
+				<h3 >Twitter Likes</h3>
+				<ul id="twitter-like-section">
+						
+				</ul>
 
 			</article>
 		</div>

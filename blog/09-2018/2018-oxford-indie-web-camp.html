@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./../static/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <title>2018 Oxford Indie Web Camp || Beverley Newing</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel='stylesheet' style='text/css' href='./../styles/main.css'>	
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-87248628-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar-inverse navbar-static-top" role="navigation">
+		    <div>
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		        </div>
+
+		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav nav-justified">
+						<li role="presentation" class="nav"><a href="index.html">Home</a></li>
+						<li role="presentation" class="nav"><a href="coding-portfolio.html">Code</a></li>
+						<li role="presentation" class="nav"><a href="talks.html">Talks</a></li>
+						<li role="presentation" class="active nav"><a href="blog.html">Blog</a></li>
+						<li role="presentation" class="nav"><a href="contact.html">Contact</a></li>
+					</ul>
+		        </div>
+		    </div>
+		</nav>
+	</header>
+	<main>
+		<div class="background">
+			<a href="https://webdevbev.co.uk/blog.html">&#8592; Back to the blog homepage</a>
+			<img class="blog-img" src="./../static/screenshot.png" />
+			<h1>2018 Oxford Indie Web Camp</h1>
+			<p>Published on <time>23/09/2018</time></p>
+
+			<h2>Day One</h2>
+
+			<h3>Level 1</h3>	
+			<p>Indie web sign-in is where you create a two-way link between your own personal site and other sites like GitHub/Twitter etc. To do this, make sure that your site has a link to your profiles on this sites with rel="me" in the mark-up, and that there is a link back to your personal site on those other sites. Once you've pushed it live, you can check the links at: <a href="https://indiewebify.me/">IndieWebify.me</a></p>
+
+			<h3>Level 2</h3>
+			<p>Microformats are semantic classes that you can add onto your HTML that allow for data to be picked up by other things. You add them to blog posts.</p>
+
+			<h3>Things Implemented</h3>
+			<p>After going through the documentation up to level 2, I got a bit stuck! So I drew some diagrams and Garrett had a look at them with me and helped explain the bits that didn't make sense. I then set up webmentions.io and brid.gy for collecting webmentions, and Dan and I used the command line to regenerate his webmention from his recent repost of my blog. I then got work getting a fetch up and running to collect data from these and display them on my blog post. By the end of day one, I managed to get a face wall up at the bottom of the blog post, which was pretty cool!</p>
+			
+		</div>
+	</main>
+
+	<footer class="footer">
+		<span class="footer__name">© 2018 Beverley Newing.</span>
+		<a href="https://uk.linkedin.com/in/beverleynewing" target="_blank">
+		<img src="https://simplesharebuttons.com/images/somacro/linkedin.png" class="footer__img" alt="LinkedIn" /></a>
+	 	<a href="https://twitter.com/webdevbev" target="_blank">
+		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" class="footer__img" alt="Twitter" /></a>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
