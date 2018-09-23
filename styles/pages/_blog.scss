@@ -2,6 +2,9 @@
 	&__title {
 		text-align: center;
 	}
+	&__subtitle {
+		text-align: left;
+	}
 	&__date {
 		text-align: center;
 	}
@@ -20,8 +23,5 @@
   		@media (max-width: $mobile) {
   			height: 10rem;	
   		}
-	}
-	&__subtitle {
-		text-align: center;
 	}
 }
