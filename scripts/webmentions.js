@@ -22,7 +22,7 @@
       		}
 
       		for (i = 0; i < data.links.length; i++) {
-      			if (data.links[i].activity.type === "like"){
+      			if (data.links[i].activity.type === "repost"){
       				const title = "Twitter Retweets";
       				const id = "twitter-retweets";
       				if(!document.getElementById(id)){
@@ -32,7 +32,7 @@
       		}
 
       		for (i = 0; i < data.links.length; i++) {
-      			if (data.links[i].activity.type === "like"){
+      			if (data.links[i].activity.type === "reply"){
       				const title = "Twitter Replies";
       				const id = "twitter-replies";
       				if(!document.getElementById(id)){
@@ -42,7 +42,7 @@
       		}
 
 			for (i = 0; i < data.links.length; i++) {
-      			if (data.links[i].activity.type === "like"){
+      			if (data.links[i].activity.type === "link"){
       				const title = "Reposts";
       				const id = "general-reposts";
       				if(!document.getElementById(id)){
