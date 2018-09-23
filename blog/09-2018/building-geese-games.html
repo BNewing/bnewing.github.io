@@ -29,7 +29,7 @@
 
 	<script>
 		// Pulls in webmentions
-		fetch('https://webmention.io/api/mentions?target=https://webdevbev.co.uk/blog/09-2018/building-geese-games.html')
+		fetch('https://webmention.io/api/mentions?per-page=100&sort-by=published&target=https://webdevbev.co.uk/blog/09-2018/building-geese-games.html')
 		  .then(
 		    function(response) {
 		      if (response.status !== 200) {
@@ -41,39 +41,32 @@
 		      // Examine the text in the response
 		      response.json().then(function(data) {
 
-		      	// Add in reposts - broken atm
-
-		    //   	for (i = 0; i < data.links.length; i++){
-		    //     	if (data.links[i].activity.type == "repost"){
-		    //     		const entryPoint = document.getElementById('webmentions')
-						// dataToPost = data.links[0].activity.sentence;
-						// const p = document.createElement('p');
-						// p.innerHTML = dataToPost;
-						// entryPoint.appendChild(p);
-		    //     	}
-		    //     }
+	      		for (i = 0; i < data.links.length; i++) {
+	      			if (data.links[i].activity.type === "repost"){
+						const twitterRetweetSection = document.getElementById('twitter-retweets');
+						twitterPhotoBubble (twitterRetweetSection, data);
+	      			}
+	      			else if (data.links[i].activity.type === "like"){
+						const twitterLikeSection = document.getElementById('twitter-like-section');
+						twitterPhotoBubble (twitterLikeSection, data);
+		      		}
+	      		}
 		      	
-
-		        // Twitter likes
+		      	function twitterPhotoBubble(target, data){
+	      			let imgSrc = data.links[i].data.author.photo;
+				    let imgAlt = data.links[i].data.author.name;
+				        
+			        var li = document.createElement('li');
+			        li.setAttribute('class', 'twitter-like-list-item');
+			        var img = document.createElement('img');
+					img.setAttribute('src', imgSrc);
+					img.setAttribute('alt', imgAlt);
+					img.setAttribute('class', 'twitter-like');
+					li.appendChild(img)
+			        target.appendChild(li);
+		      	}
 
 		        console.log(data);
-
-		        for (i = 0; i < data.links.length; i++){
-		        	if (data.links[i].activity.type == "like"){
-		        		let imgSrc = data.links[i].data.author.photo;
-				        let imgAlt = data.links[i].data.author.name;
-				        
-				        var img = document.createElement('img');
-						img.setAttribute('src', imgSrc);
-						img.setAttribute('alt', imgAlt);
-						img.setAttribute('class', 'twitter-like');
-
-						const twitterLikeSection = document.getElementById('twitter-like-section');
-						const imgToPost = img.toString();
-				        twitterLikeSection.appendChild(img);
-		        	}
-		        	
-		        }
 
 		      });
 		    }
@@ -82,6 +75,11 @@
 		    console.log('Fetch Error :-S', err);
 		  });
 
+		  // Send out webmention to Henry
+		  // Include replies
+		  // Make code reusable across pages
+		  // publish indie web camp post
+		  // Make it create the whole section, so that sections only appear if there is content to go in them
 
 	</script>
 </head>
@@ -160,12 +158,22 @@
 
 				<h2>Social media responses</h2>
 
-				<h3 id="webmentions">Reposts</h3>
-
+				<h3>Reposts</h3>
+				<ul id="general-reposts">
+					
+				</ul>
+				
 				<h3 >Twitter Likes</h3>
 				<ul id="twitter-like-section">
 						
 				</ul>
+
+				<h3>Twitter Retweets</h3>
+				<ul id="twitter-retweets">
+					
+				</ul>
+
+				
 
 			</article>
 		</div>
