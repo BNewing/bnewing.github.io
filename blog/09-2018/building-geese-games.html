@@ -27,61 +27,7 @@
 		ga('send', 'pageview');
 	</script>
 
-	<script>
-		// Pulls in webmentions
-		fetch('https://webmention.io/api/mentions?per-page=100&sort-by=published&target=https://webdevbev.co.uk/blog/09-2018/building-geese-games.html')
-		  .then(
-		    function(response) {
-		      if (response.status !== 200) {
-		        console.log('Looks like there was a problem. Status Code: ' +
-		          response.status);
-		        return;
-		      }
-
-		      // Examine the text in the response
-		      response.json().then(function(data) {
-
-	      		for (i = 0; i < data.links.length; i++) {
-	      			if (data.links[i].activity.type === "repost"){
-						const twitterRetweetSection = document.getElementById('twitter-retweets');
-						twitterPhotoBubble (twitterRetweetSection, data);
-	      			}
-	      			else if (data.links[i].activity.type === "like"){
-						const twitterLikeSection = document.getElementById('twitter-like-section');
-						twitterPhotoBubble (twitterLikeSection, data);
-		      		}
-	      		}
-		      	
-		      	function twitterPhotoBubble(target, data){
-	      			let imgSrc = data.links[i].data.author.photo;
-				    let imgAlt = data.links[i].data.author.name;
-				        
-			        var li = document.createElement('li');
-			        li.setAttribute('class', 'twitter-like-list-item');
-			        var img = document.createElement('img');
-					img.setAttribute('src', imgSrc);
-					img.setAttribute('alt', imgAlt);
-					img.setAttribute('class', 'twitter-like');
-					li.appendChild(img)
-			        target.appendChild(li);
-		      	}
-
-		        console.log(data);
-
-		      });
-		    }
-		  )
-		  .catch(function(err) {
-		    console.log('Fetch Error :-S', err);
-		  });
-
-		  // Send out webmention to Henry
-		  // Include replies
-		  // Make code reusable across pages
-		  // publish indie web camp post
-		  // Make it create the whole section, so that sections only appear if there is content to go in them
-
-	</script>
+	<script src="../../scripts/webmentions.js" type="text/javascript" ></script>
 </head>
 
 <body>
@@ -153,27 +99,17 @@
 				</div>
 				
 				<div class="blog__button-container">
-					<a href="https://webdevbev.co.uk/geese-games" class="button blog__button">Check out "Geese Games"!</a>
+					<a href="https://webdevbev.co.uk/geese-games" class="button blog__button">Visit Geese Games!</a>
 				</div>
 
-				<h2>Social media responses</h2>
-
-				<h3>Reposts</h3>
-				<ul id="general-reposts">
-					
-				</ul>
-				
-				<h3 >Twitter Likes</h3>
-				<ul id="twitter-like-section">
-						
-				</ul>
-
-				<h3>Twitter Retweets</h3>
-				<ul id="twitter-retweets">
-					
-				</ul>
+				<h2 id="social-media-responses">Social media responses</h2>
 
 				
+
+				<p>If you'd like to interact with this blog post, head on over to the Tweet about it:</p>
+				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;ve been building a goose-themed quiz for fun lately, and I&#39;ve just published a blog post about it on my website. First blog post that actually lives on my own website too! Very far from perfect but alllll of the happy coding feels :D <a href="https://t.co/N0l4QRmGTE">https://t.co/N0l4QRmGTE</a> <a href="https://t.co/WvPHKxtdGW">pic.twitter.com/WvPHKxtdGW</a></p>&mdash; Beverley Newing (@WebDevBev) <a href="https://twitter.com/WebDevBev/status/1041808388345286657?ref_src=twsrc%5Etfw">September 17, 2018</a></blockquote>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 			</article>
 		</div>
