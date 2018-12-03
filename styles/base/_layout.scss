@@ -14,16 +14,6 @@
   }
 }
 
-.bubble {
-  background-color: $mint-green;
-  opacity: 0.95;
-  border-radius: 4.5rem;
-  padding: 1.25rem;
-  @media (max-width: $mobile){
-    border-radius: 5.5rem;
-  }
-}
-
 .col {
   background-clip: padding-box;
   border: 2.1875rem solid transparent;
