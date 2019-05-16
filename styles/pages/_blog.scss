@@ -4,13 +4,19 @@
 	}
 	&__subtitle {
 		text-align: left;
+		margin-top: 2rem;
 	}
 	&__date {
 		text-align: center;
+		margin-top: 0.5rem;
+		margin-bottom: 1rem;
 	}
 	&__button-container {
 		text-align: center;
 		margin: 3em;
+	}
+	&__link-description {
+		margin-top: 0.5rem;
 	}
 	&__image {
   		width: auto;

@@ -18,8 +18,12 @@ p, h1, h2, h3, h4, legend, label {
   color: $black;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2.5rem;
 }
 
 .intro-text {
@@ -31,11 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 /*-------- LINKS --------*/
 a {
   color: $green;
+  text-decoration: underline;
   &:visited {
-    text-decoration: none;
     color: $green;
+    border-bottom: none;
   }
-  &:hover {
+  &:hover, &:active, &:focus {
     color: $blue;
   }
 }
