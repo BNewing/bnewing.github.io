@@ -3,13 +3,13 @@ var sass 			= require('gulp-sass');
 var sourcemaps 		= require('gulp-sourcemaps');
 var autoprefixer 	= require('gulp-autoprefixer');
 var connect 		= require('gulp-connect');
-var cssnano 		= require('gulp-cssnano');
+var cleanCSS 		= require('gulp-clean-css');
 
 gulp.task('sass', function() {
 	return gulp.src('./styles/main.scss')
 	.pipe(sourcemaps.init())
 	.pipe(sass().on('error', sass.logError))
-	.pipe(cssnano())
+	.pipe(cleanCSS({compatibility: 'ie8'}))
 	.pipe(sourcemaps.write())
 	.pipe(autoprefixer())
 	.pipe(gulp.dest('./styles'));
