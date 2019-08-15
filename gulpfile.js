@@ -16,15 +16,16 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch('./styles/**/*.scss', ['sass']);
-	gulp.watch(['./*.html'], ['html']);
+	gulp.watch('./styles/**/*.scss', gulp.series('sass'));
+	gulp.watch(['./*.html'], gulp.series('html'));
 });
 
-gulp.task('connect', function() {
+gulp.task('connect', done => {
 	connect.server({
 		root: './',
 		livereload: true
 	});
+	done();
 });
 
 gulp.task('html', function() {
@@ -32,7 +33,7 @@ gulp.task('html', function() {
 	.pipe(connect.reload());
 });
 
-gulp.task('default', ['sass', 'connect', 'watch']);
+gulp.task('default', gulp.series('sass', 'connect', 'watch'));
 
 
 

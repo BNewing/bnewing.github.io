@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/BNewing/bnewing.github.io#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-connect": "^5.7.0",
     "gulp-cssnano": "^2.1.3",
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
+    "gulp-cli": "^2.2.0",
     "npm": "^6.10.3"
   }
 }
