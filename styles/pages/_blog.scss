@@ -29,5 +29,17 @@
   		@media (max-width: $mobile) {
   			height: 10rem;	
   		}
+  		&--top {
+			width: 100%;
+			height: auto;
+			border-radius: 2rem;
+  		}
+  		&--side-by-side {
+  			display: inline-block;
+  			margin: auto;
+  			@media (max-width: $mobile) {
+	  			display: block;	
+	  		}
+  		}
 	}
 }
