@@ -6,11 +6,9 @@
 /*-------- COLOURS --------*/
 /*-------- FONT SIZES --------*/
 /*------- LAYOUT BREAKPOINTS ------- */
-body { display: flex; min-height: 100vh; flex-direction: column; background: #CDDDDD url("../static/Background.jpg") no-repeat fixed; background-size: cover; }
+body { display: flex; min-height: 100vh; flex-direction: column; background: #CDDDDD; background-size: cover; }
 
-@media (max-width: 40.625rem) { body { background-image: url("../static/BreakpointBackground.png"); } }
-
-.background { background-color: #CDDDDD; margin: 0 15%; opacity: .95; padding: 2% 10%; flex: 1; }
+.background { background-color: #CDDDDD; margin: 0 15%; opacity: .95; flex: 1; margin-bottom: 1rem; }
 
 @media (max-width: 48rem) { .background { margin-left: 5%; margin-right: 5%; padding-left: 5%; padding-right: 5%; } }
 
@@ -155,5 +153,7 @@ li.active > a { color: #000000; }
 .blog__image--side-by-side { display: inline-block; margin: auto; }
 
 @media (max-width: 40.625rem) { .blog__image--side-by-side { display: block; } }
+
+.current { color: pink !important; }
 
 /*# sourceMappingURL=styles.css.map */

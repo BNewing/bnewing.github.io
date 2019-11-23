@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-    <title> Welcome to Jekyll! </title>
+    <title> Contact || Web Dev Bev </title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" style='text/css' href="/assets/css/styles.css">
@@ -61,7 +61,7 @@
 		      Blog
 		   </a></li>
 		
-		   <li class="nav"><a href="/contact" >
+		   <li class="nav"><a href="/contact"  class="current active nav d-inline-block align-top" >
 		      Contact
 		   </a></li>
 		
@@ -70,38 +70,27 @@
 </nav>
 
 	<main class='background bio'>
-		<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2019-11-23T16:59:13+00:00" itemprop="datePublished">Nov 23, 2019
-      </time></p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-  </div><a class="u-url" href="/jekyll/update/2019/11/23/welcome-to-jekyll.html" hidden></a>
-</article>
-
+		<div class="background">
+	<h1>Contact Me</h1>
+	<p>You can find me online at <a href="https://www.twitter.com/WebDevBev">@WebDevBev on Twitter</a> or on <a href="https://www.linkedin.com/in/beverleynewing/">LinkedIn</a>. Alternately, fill out the form below and I'll get back to you as soon as I can.</p>
+	<div class="row">
+		<div class='col-sm-12 col-xs-12 contact-form'>
+			<form method="POST" action="http://formspree.io/beverley.newing@gmail.com">
+				<fieldset>
+					<legend class="contact-form__legend">Contact Form</legend>
+					<label for="contact-form-name" class="contact-form__label">What's your name?</label>
+					<input id=contact-form-name" class="contact-form__input" type="text" name="name">
+					<label for="contact-form-email" class="contact-form__label">What's your email?</label>
+				  	<input id="contact-form-email" class="contact-form__input" type="email" name="email">	  	
+				  	<label for="contact-form-message" class="contact-form__label">What would you like to say?</label>
+				  	<textarea id="contact-form-message" class="contact-form__input" name="message"></textarea>
+				  	<input class="contact-form__button button" value="Send message" type="submit">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+	
 	</main>
 
 	<footer class="footer">
