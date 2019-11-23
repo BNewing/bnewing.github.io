@@ -1,0 +1,159 @@
+/*-------- FONT --------*/
+@import url("https://fonts.googleapis.com/css?family=Ek+Mukta");
+/*-------- BASE--------*/
+.visually-hidden { clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); height: 1px; width: 1px; overflow: hidden; position: absolute !important; }
+
+/*-------- COLOURS --------*/
+/*-------- FONT SIZES --------*/
+/*------- LAYOUT BREAKPOINTS ------- */
+body { display: flex; min-height: 100vh; flex-direction: column; background: #CDDDDD url("../static/Background.jpg") no-repeat fixed; background-size: cover; }
+
+@media (max-width: 40.625rem) { body { background-image: url("../static/BreakpointBackground.png"); } }
+
+.background { background-color: #CDDDDD; margin: 0 15%; opacity: .95; padding: 2% 10%; flex: 1; }
+
+@media (max-width: 48rem) { .background { margin-left: 5%; margin-right: 5%; padding-left: 5%; padding-right: 5%; } }
+
+.col { border: 2.1875rem solid transparent; padding: 2%; }
+
+.footer { align-self: flex-end; }
+
+/*-------- BASE --------*/
+html, body { font-family: 'Ek Mukta', serif; font-size: 100%; line-height: 1.5; }
+
+main * + * { margin-top: 1rem; }
+
+/*-------- GENERAL TYPOGRAPHY --------*/
+p, li, a { font-size: 1.125rem; }
+
+p, h1, h2, h3, h4, legend, label { color: #000000; }
+
+h1 { text-align: center; }
+
+h1, h2, h3, h4, h5, h6 { margin-top: 2.5rem; }
+
+.intro-text { border-bottom: 0.0625rem solid #EEEEEE; margin-bottom: 1.25rem; padding-bottom: 1.25rem; }
+
+/*-------- LINKS --------*/
+a { color: #016401; text-decoration: underline; }
+
+a:visited { color: #016401; border-bottom: none; }
+
+a:hover, a:active, a:focus { color: #0099CC; }
+
+/*-------- COMPONENTS; --------*/
+button, .button { background-color: #FFCC11; border: .125rem solid transparent; border-radius: .25rem; box-shadow: 0.125rem 0.125rem 0.125rem 0 rgba(47, 50, 50, 0.75); color: #000000; font-size: 1.25rem; padding: .5rem 1rem; text-decoration: none; }
+
+button:hover, button:active, button:focus, .button:hover, .button:active, .button:focus { border: .125rem solid black; -webkit-box-shadow: 0 0 0 0 rgba(47, 50, 50, 0.75); -moz-box-shadow: 0 0 0 0 rgba(47, 50, 50, 0.75); box-shadow: 0 0 0 0 rgba(47, 50, 50, 0.75); color: #000000; text-decoration: none; }
+
+button:visited, .button:visited { color: #000000; }
+
+.contact-form__legend { border-bottom: 0; margin-bottom: 0; }
+
+.contact-form__label { font-size: 1.125rem; margin-bottom: 0; text-align: left; }
+
+.contact-form__input { border: 0.0625rem solid #7E7E7E; border-radius: 0.5rem; font-size: 1.125rem; margin: 0.5rem 0; padding: 0.5rem; width: 100%; }
+
+.contact-form__button { display: block; margin: 0 auto; }
+
+.card-list { padding-left: 0; }
+
+.card { list-style: none; text-align: center; border-bottom: 1px solid #EEEEEE; }
+
+.card__header--title { margin: 0; }
+
+.card__tags-label { display: inline; }
+
+.card__tag { background-color: #016401; border-radius: 0; color: white; display: inline-block; font-size: 1rem; margin-top: 0.5rem; padding: 0.25rem; }
+
+.card__main-body-container:after { content: ""; clear: both; display: table; }
+
+.card__image { border-radius: 1rem; float: left; margin-right: 1rem; width: unset; }
+
+.card__text { margin-right: 1rem; margin-left: 1rem; text-align: justify; }
+
+.card__footer { text-align: center; margin: 1rem 0 3rem 0; }
+
+.card__footer--button { display: inline-block; margin: 0.5rem; }
+
+.footer { background: #464646; color: #FFFFFF; padding: 1rem; text-align: center; width: 100%; }
+
+.footer__img { height: 2rem; width: 2rem; display: inline-block; }
+
+.footer__logo { height: 5rem; width: 5rem; }
+
+img { border-radius: 50%; display: block; height: 10rem; margin-left: auto; margin-right: auto; width: 10rem; }
+
+.talk-photos { margin: 2rem; text-align: center; }
+
+.talk-photos__img { display: inline; margin: 0 1rem; }
+
+.twitter-like { width: 3rem; height: 3rem; display: inline; margin: 0.5rem; text-align: left; }
+
+.twitter-like-list-item { list-style: none; display: inline; }
+
+.social-media-list { text-align: left; }
+
+li { text-align: left; }
+
+li.nav { background-color: #FFFFFF; font-size: 1.125rem; letter-spacing: 0.1em; line-height: 1.5; padding-bottom: 0; }
+
+ul.nav { background-color: #000000; opacity: 0.90; }
+
+li.active { text-decoration: underline; }
+
+li.active > a { color: #000000; }
+
+.nav > li > a { border: 2px solid transparent; box-sizing: border-box; }
+
+.nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #000000; text-decoration: none; }
+
+@media (max-width: 40.625rem) { li.nav { font-size: 1rem; line-height: normal; }
+  .nav > li > a { padding: 0.25rem; } }
+
+/*-------- PAGES --------*/
+.bio { min-height: 100%; }
+
+@media (min-width: 64rem) { .bio { display: flex; flex-direction: row; align-content: stretch; } }
+
+@media (min-width: 64rem) { .bio--left { flex: 7; padding-right: 2rem; } }
+
+@media (min-width: 64rem) { .bio--right { border-left: 1px solid black; padding-left: 2rem; flex: 3; margin-left: 1rem; margin-top: 0; } }
+
+.bio__button { color: #000000; display: inline-block; text-align: center; margin-top: 0.5rem; }
+
+.bio__button:visited { color: #000000; }
+
+.bio__button:first-of-type { margin-bottom: 1.5rem; }
+
+.bio__photo { float: left; height: 13rem; margin-right: 3em; shape-outside: circle(); -webkit-shape-outside: circle(); width: 13rem; }
+
+@media (max-width: 40.625rem) { .bio__photo { float: unset; margin: auto; } }
+
+.bio__title { border-bottom: none; padding-bottom: 0; }
+
+.bio__sub-title { margin-top: 1rem; margin-bottom: 0.5rem; }
+
+.blog__title { text-align: center; }
+
+.blog__subtitle { text-align: left; margin-top: 2rem; }
+
+.blog__date { text-align: center; margin-top: 0.5rem; margin-bottom: 1rem; }
+
+.blog__button-container { text-align: center; margin: 3em; }
+
+.blog__link-description { margin-top: 0.5rem; }
+
+.blog__image { width: auto; border-radius: 1rem; height: 15rem; margin-top: 1.5rem; }
+
+@media (max-width: 48rem) { .blog__image { height: 12.5rem; } }
+
+@media (max-width: 40.625rem) { .blog__image { height: 10rem; } }
+
+.blog__image--top { width: 100%; height: auto; border-radius: 2rem; }
+
+.blog__image--side-by-side { display: inline-block; margin: auto; }
+
+@media (max-width: 40.625rem) { .blog__image--side-by-side { display: block; } }
+
+/*# sourceMappingURL=styles.css.map */

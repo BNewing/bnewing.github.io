@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home || Web Dev Bev
+---
+
+<div class="bio--left">
+	<h1 class="bio__title">Hi, I'm Beverley</h1>
+	<img src="./static/personal-photo.jpg" class="bio__photo" alt=""/>
+	<p class="bio__text">I'm a front-end developer, former organiser of codebar Oxford and Code First: Girls lead instructor. I'm also a public speaker, blogger, and huuuuge fan of cute animals.</p>
+
+	<p class="bio__text">I'm pretty passionate about accessibility and inclusion. In a world that is becoming increasingly digital, it's super important that we make sure it's accessible for everyone. I love accessibility reviews doing at work and on open source projects, and volunteering with the diversity in tech movement.</p> 
+</div>
+
+<div class="bio--right">
+	<h2>Latest blog post</h2>
+	<p>'Motorbiking to Scotland and Back', posted on 19th May 2019.</p>
+	<a class="button bio__button" href="./blog.html">See all posts</a>
+	<h2 class="bio__sub-title">Next talk</h2>
+	<p>'Intro to Accessibility Testing', International Design in Government conference, Rotterdam, November 20th</p>
+	<a class="button bio__button" href="./talks.html">View all talks</a>
+</div>
