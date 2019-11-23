@@ -29,6 +29,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: webdevbev
 github_username:  bnewing
 
+collections:
+  posts:
+    output: true
+    permalink: /blog/:month-:year/:title
+
 # Build settings
 theme: minima
 plugins:
