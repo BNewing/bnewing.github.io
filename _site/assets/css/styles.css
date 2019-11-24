@@ -8,9 +8,9 @@
 /*------- LAYOUT BREAKPOINTS ------- */
 body { display: flex; min-height: 100vh; flex-direction: column; background: #CDDDDD; background-size: cover; }
 
-.background { background-color: #CDDDDD; margin: 0 15%; opacity: .95; flex: 1; margin-bottom: 1rem; }
+.background { background-color: #CDDDDD; margin: 0 auto; width: 48rem; flex: 1; margin-bottom: 1rem; }
 
-@media (max-width: 48rem) { .background { margin-left: 5%; margin-right: 5%; padding-left: 5%; padding-right: 5%; } }
+@media (max-width: 48rem) { .background { margin-left: 5%; margin-right: 5%; padding-left: 5%; padding-right: 5%; width: auto; } }
 
 .col { border: 2.1875rem solid transparent; padding: 2%; }
 
@@ -68,7 +68,7 @@ button:visited, .button:visited { color: #000000; }
 
 .card__image { border-radius: 1rem; float: left; margin-right: 1rem; width: unset; }
 
-.card__text { margin-right: 1rem; margin-left: 1rem; text-align: justify; }
+.card__text { margin-right: 1rem; margin-left: 1rem; }
 
 .card__footer { text-align: center; margin: 1rem 0 3rem 0; }
 

@@ -8,8 +8,8 @@ body {
 
 .background {
   background-color: $mint-green;
-  margin: 0 15%;
-  opacity: .95;
+  margin: 0 auto;
+  width: 48rem;
   flex: 1;
   margin-bottom: 1rem;
   @media (max-width: $tablet){
@@ -17,6 +17,7 @@ body {
     margin-right: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    width: auto;
   }
 }
 
