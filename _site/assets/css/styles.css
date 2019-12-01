@@ -156,7 +156,7 @@ li.active > a { color: #000000; }
 
 .blog__image--top { width: 100%; height: auto; border-radius: 2rem; }
 
-.blog__image--preview { margin: 1rem; display: inline-block; border-radius: 1rem; height: auto; float: left; width: 10rem; }
+.blog__image--preview { margin-right: 2rem; display: inline-block; border-radius: 1rem; height: auto; float: left; width: 10rem; }
 
 @media (max-width: 40.625rem) { .blog__image--preview { display: none; } }
 
