@@ -1,8 +1,4 @@
----
-layout: default
-title: Talks
-permalink: /talks
----
+I"¡
 <h1 class="CV">Talks</h1>
 <div class="talk-photos">
 	<img class="talk-photos__img" alt="Beverley speaking at a Personal Website workshop" src="/assets/images/talks.png" />
@@ -15,7 +11,7 @@ permalink: /talks
 <ul>
 	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to hear me talk</p></li>	
 </ul>
-<h2>Past Talks and Workshops</h2>	
+<h2>Past Talks and Workshops</h2>
 <h3>2019</h3>
 <ul>
 	<li><a href="https://www.meetup.com/BerkshireJS/events/265028403/">Intro to accessibility testing</a> at Berkshire JS, 8th October</li>	
@@ -39,4 +35,5 @@ permalink: /talks
 	<li>"Supportive listening workshop" at Oxford Computer Consultants</li>
 	<li>"Git workshop" at Oxford Computer Consultants</li>
 </ul>
-		
+
+:ET
