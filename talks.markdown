@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Talks || Web Dev Bev
+title: Talks
 permalink: /talks
 ---
 <h1 class="CV">Talks</h1>

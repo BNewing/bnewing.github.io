@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home || Web Dev Bev
+title: Home
 ---
 <div class="bio">
 	<div class="bio--left">

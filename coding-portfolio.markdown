@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code || Web Dev Bev
+title: Code
 permalink: /code
 ---
 <h1>Coding Portfolio</h1>
