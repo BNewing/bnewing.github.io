@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: $mint-green;
+  background-size: cover;
+}
+
+.background {
+  background-color: $mint-green;
+  margin: 0 auto;
+  width: 48rem;
+  flex: 1;
+  margin-bottom: 1rem;
+  @media (max-width: $tablet){
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: auto;
+  }
+}
+
+.col {
+  border: 2.1875rem solid transparent;
+  padding: 2%;
+}
+
+.footer {
+  align-self: flex-end;
+}

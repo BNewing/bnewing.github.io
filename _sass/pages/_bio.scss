@@ -1,0 +1,55 @@
+.bio {
+	min-height: 100%;
+	@media (min-width: $desktop) {
+		display: flex;
+		flex-direction: row;
+		align-content: stretch;
+	}
+	&--left {
+		@media (min-width: $desktop) {
+			flex: 7;
+			padding-right: 2rem;
+		}
+	}
+	&--right {
+		@media (min-width: $desktop) {
+			border-left: 1px solid black;
+			padding-left: 2rem;
+			flex: 3;
+			margin-left: 1rem;
+			margin-top: 0;
+		}
+	}
+	&__button {
+		color: $black;
+		display: inline-block;
+		text-align: center;
+		margin-top: 0.5rem;
+    	&:visited {
+    		color: $black;
+    	}
+    	&:first-of-type {
+    		margin-bottom: 1.5rem;
+    	}
+	}
+	&__photo {
+		float: left;
+		height: 13rem;
+		margin-right: 3em;
+		shape-outside: circle();
+		-webkit-shape-outside: circle();
+  		width: 13rem;
+	  	@media (max-width: $mobile) {
+	    	float: unset;
+	    	margin: auto;
+		}
+	}
+	&__title {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	&__sub-title {
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+	}
+}
