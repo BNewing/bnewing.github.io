@@ -142,6 +142,12 @@ li.active > a { color: #000000; }
 
 .blog__link-description { margin-top: 0.5rem; }
 
+.blog__post-preview { list-style-type: none; }
+
+.blog__post-preview::after { content: ""; display: block; clear: both; }
+
+.blog__list { padding: 0; }
+
 .blog__image { width: auto; border-radius: 1rem; height: 15rem; margin-top: 1.5rem; }
 
 @media (max-width: 48rem) { .blog__image { height: 12.5rem; } }
@@ -150,10 +156,12 @@ li.active > a { color: #000000; }
 
 .blog__image--top { width: 100%; height: auto; border-radius: 2rem; }
 
+.blog__image--preview { margin: 1rem; display: inline-block; border-radius: 1rem; height: auto; float: left; width: 10rem; }
+
+@media (max-width: 40.625rem) { .blog__image--preview { display: none; } }
+
 .blog__image--side-by-side { display: inline-block; margin: auto; }
 
 @media (max-width: 40.625rem) { .blog__image--side-by-side { display: block; } }
-
-.current { color: pink !important; }
 
 /*# sourceMappingURL=styles.css.map */

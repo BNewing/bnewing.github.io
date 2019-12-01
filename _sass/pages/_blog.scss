@@ -18,6 +18,17 @@
 	&__link-description {
 		margin-top: 0.5rem;
 	}
+	&__post-preview {
+		list-style-type: none;
+		&::after { 
+			content: "";
+			display: block; 
+			clear: both;
+		}
+	}
+	&__list {
+		padding: 0;
+	}
 	&__image {
   		width: auto;
   		border-radius: 1rem;
@@ -33,6 +44,17 @@
 			width: 100%;
 			height: auto;
 			border-radius: 2rem;
+  		}
+  		&--preview {
+  			margin: 1rem;
+  			display: inline-block;
+  			border-radius: 1rem;
+  			height: auto;
+  			float: left;
+  			width: 10rem;
+  			@media (max-width: $mobile) {
+	  			display: none;	
+	  		}
   		}
   		&--side-by-side {
   			display: inline-block;

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <title> 2018 Oxford Indie Web Camp - Blog Post || Beverley Newing </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" style='text/css' href="/assets/css/styles.css">
+
+	<!-- Indie web sign-in -->
+	<link rel="me" href="https://github.com/BNewing" />
+	<link rel="me" href="https://codepen.io/WebDevBev/" />
+	<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+	<!-- Indie web webmentions -->
+	<link rel="webmention" href="https://webmention.io/webdevbev.co.uk/webmention" />
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87248628-1', 'auto');
+  ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body>
+	<nav class="navbar-inverse navbar-static-top" role="navigation">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+  </div>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-target="#index-header">
+  	<ul class="nav nav-justified">
+  		
+  		  <li class="nav"><a href="/" >
+  		      Home</a>
+        </li>
+  		
+  		  <li class="nav"><a href="/code" >
+  		      Code</a>
+        </li>
+  		
+  		  <li class="nav"><a href="/talks" >
+  		      Talks</a>
+        </li>
+  		
+  		  <li class="nav"><a href="/blog" >
+  		      Blog</a>
+        </li>
+  		
+  		  <li class="nav"><a href="/contact" >
+  		      Contact</a>
+        </li>
+  		
+  	</ul>
+  </div>
+</nav>
+
+	<main class='background'>
+		<a href="/blog.html">&#8592; Back to the blog homepage</a>
+<article class="h-entry">
+	<img class="blog__image" src="/assets/images/blog-photos/indie-web-camp.png" alt="Indie Web Camp" />
+	
+	<h1 class="blog__title p-name"> 2018 Oxford Indie Web Camp - Blog Post || Beverley Newing </h1>
+
+	<p class="blog__date">Published by <a href="https://webdevbev.co.uk" rel="author" class="p-author h-card">Beverley Newing</a> on <time class="dt-published">23rd October 2018</time></p>
+	
+	<div class="e-content">
+		<p>The Indie Web movement is a movement all about content ownership, in the current times of Facebook, Twitter, Instagram and so on. It has been something I’ve been interested in ever since hearing <a href="https://adactio.com">Jeremy Keith</a> talk about it at a conference last year. So I was super excited to hear that the wonderful <a href="https://polytechnic.co.uk/">Garrett</a> was organising an Indie Web Camp in Oxford! Here’s a summary of what I did over the two days:</p>
+
+<h2 class="blog__subtitle">Day One</h2>
+<p>Day one was spent at the wonderful White October offices, with snacks provided by Haybrook. </p>
+
+<h3 class="blog__subtitle">Level 1</h3>
+
+<p>I got Level 1 set up! This involves setting up indie web sign-in, which allows you to use your own website to log in to things. It’s where you create a two-way link between your own personal site and other sites like GitHub/Twitter etc. To do this, make sure that your site has a link to your profiles on this sites with rel="me" in the mark-up, and that there is a link back to your personal site on those other sites. Once you've pushed it live, you can check the links at: <a href="https://indiewebify.me/">IndieWebify.me</a></p>
+
+<h3 class="blog__subtitle">Level 2</h3>
+<p>Level 2 is about formatting your content for other sites, and letting other people know you’ve referenced their content with webmentions. Formatting your content for other sites involves micro formats. Microformats are semantic classes that you can add onto your HTML that allow for data to be picked up by other things. You add them to blog posts and it helps things pick out the data in a meaningful way. Webmentions are where you link to other people’s content and notify them that you’ve done this. I have to say, I struggled to get my head around how this actually worked, but Garrett was very patient, and helped me map out a little diagram to get my head around the system. Because my site is a static site on GitHub pages, I couldn’t figure out any ways of doing this with any kind of tooling, but <a href="http://www.danq.me/">Dan Q</a> helped me out with the command line curling you need to do instead. That was pretty cool! </p>
+
+<h3 class="blog__subtitle">Things Implemented</h3>
+<p>I went off piste a little bit after this, because I got super carried away with webmentions. I set up <a href="https://webmention.io/">webmentions.io</a> and <a href="https://brid.gy/">brid.gy</a> for collecting them, and then got to work writing some JavaScript to collect my webmentions and display them on my Geese Games blog post. By the end of day one, I managed to get a face wall of people who’d liked my Tweet about my <a href="https://webdevbev.co.uk/blog/09-2018/building-geese-games.html">Geese Games blog post</a> at the bottom of the blog post, which was pretty cool! It wasn’t particularly ordered or filtered though, so I decided to try and tackle that the next day. Another thing on my to do list for day two was <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+<h2 class="blog__subtitle">Day Two</h2>
+<p>On day two, because of rain, we decided to all work from home - I unfortunately didn’t get the message until turning up at the office because I didn't think to check beforehand, but it worked out alright because I then went for a coffee with <a href="http://www.marcus-povey.co.uk">Marcus</a> and worked from various food places on Cowley road for a bit which was lovely!</p>
+
+<h3 class="blog__subtitle">Working with APIs</h3>
+<p>Yesterday, I started pulling in data from webmentions.io, and today I formatted it nicely. At the start of the day, the my fetch was an inline script that was pulling in the first 20 twitter likes. By the middle of the day, I had it all formatted out so that the fetch request pulled in the past 100 mentions, and filtered them into different sections on the page against ‘Twitter like’, ‘Twitter retweet’, ‘Repost’ and ‘Twitter reply’. I moved this script out into it’s own file, refactored it and made it reusable. One thing I learnt was how to chain parameters in an API call - you need to put & in between each different parameter! That tripped me up for a bit, but now I know!</p>
+
+
+<h3 class="blog__subtitle">Webmention curling</h3>
+<p>I’d referenced <a href="https://henryblyth.com/">Henry</a> on my blog post and so I wanted to send him a web mention. It took a while to get it to work, and we were a bit stuck for a little while, but in the end Garrett realised it was because it was missing a trailing / at the end of one of the URLs - then it worked! Yay!</p>
+
+<h3 class="blog__subtitle">DOM Manipulation</h3>
+<p>Once I’d figured out how to filter out the different types of web mention, I decided that I wanted my JavaScript to create the social media sections. This way, I could reply on the script to generate the relevant sections, and would also know if that if the user hadn’t enabled JS, redundant headers wouldn’t be appearing on the screen. Getting the relevant HTML generated wasn’t too hard, but getting the sections to render in a set option proved to be a bit trickier. In the for loop, the sections were being generated in order of what appeared in the array first, so I couldn’t rely on a fixed order that way. In the end, I did this with a separate for loop for each section, and arranged these in the order I wanted the sections to appear, at the top of the fetch. There is probably a more elegant way of doing this, but it works for now!</p>
+
+<p>It’s been a super fun few days, and I’m pretty pleased with what I’ve achieved! If you check out the <a href="https://webdevbev.co.uk/blog/09-2018/building-geese-games.html#social-media-responses">Social Media section of my Geese Games blog post</a>, you can see what I did over the two days. I didn’t get to putting my blog on Jekyll, but I’ll carry on with that another time. In case you’re interested in having a go yourself, I've included some links below.</p>
+
+<h2 class="blog__subtitle">Useful links:</h2>
+<ul>
+	<li>Wiki for the indi webmovement: <a href="https://indieweb.org/">https://indieweb.org/</a></li>
+	<li>Webmention tool for static websites: <a href="https://webmention.io/">https://webmention.io/</a></li>
+	<li>Webmention tool for Twitter for static sites: <a href="https://brid.gy/">https://brid.gy/</a></li>
+	<li>Talk by Adactio on the Indie Web: <a href="https://youtu.be/VvYK-K0jWng">https://youtu.be/VvYK-K0jWng</a></li>
+	<li> <a href="https://polytechnic.co.uk/blog/2018/09/indiewebcamp-oxford-day-1">Garrett's blog post about Day 1</a></li>
+</ul>
+
+	</div>
+
+	<h2 id="social-media-responses">Responses</h2>
+	<p>If you'd like to interact with this blog post, head on over to the Tweet about it:</p>	
+		<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Had a wonderful time at <a href="https://twitter.com/garrettc?ref_src=twsrc%5Etfw">@garrettc</a>&#39;s Oxford 2018 Indie Web Camp! Thank you for organising it Garrett (and <a href="https://twitter.com/HaybrookIT?ref_src=twsrc%5Etfw">@HaybrookIT</a> for the snacks!) It was nice to get to see <a href="https://twitter.com/WhiteOctober?ref_src=twsrc%5Etfw">@whiteoctober</a>&#39;s lovely offices too. Here&#39;s my blog post about all of it :) <a href="https://t.co/ua5cHtqYkm">https://t.co/ua5cHtqYkm</a></p>&mdash; Beverley Newing (@WebDevBev) <a href="https://twitter.com/WebDevBev/status/1043903556313645057?ref_src=twsrc%5Etfw">September 23, 2018</a></blockquote>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</article>
+	</main>
+
+	<footer class="footer">
+	<span class="footer__name">© 2019 Beverley Newing.</span>
+	<a href="https://www.linkedin.com/in/beverleynewing" rel="me">
+	<img src="https://simplesharebuttons.com/images/somacro/linkedin.png" class="footer__img" alt="LinkedIn" /></a>
+ 	<a href="https://twitter.com/webdevbev" rel="me">
+	<img src="https://simplesharebuttons.com/images/somacro/twitter.png" class="footer__img" alt="Twitter" /></a>
+</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

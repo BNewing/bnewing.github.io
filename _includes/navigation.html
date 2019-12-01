@@ -11,7 +11,7 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-target="#index-header">
   	<ul class="nav nav-justified">
   		{% for item in site.data.navigation %}
-  		  <li class="nav"><a href="{{ item.link }}" {% if page.url == item.link %} class="current active nav d-inline-block align-top" {% endif %}>
+  		  <li class="nav"><a href="{{ item.link }}" {% if page.url == item.link %} class="active nav d-inline-block align-top" {% endif %}>
   		      {{ item.name }}</a>
         </li>
   		{% endfor %}
