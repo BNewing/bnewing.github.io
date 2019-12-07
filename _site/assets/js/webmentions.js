@@ -1,5 +1,4 @@
 (function() {
-	console.log("indie web stuff about to start happening");
 	let currentPageURL = "https://webmention.io/api/mentions?per-page=100&sort-by=published&target=" + window.location.href;
 	  fetch(currentPageURL)
 	  .then(
@@ -10,7 +9,6 @@
 			}
 
 	        response.json().then(function(data) {
-	        	console.log(data);
 		      	//Creates section titles if they exist in a set order
 				for (i = 0; i < data.links.length; i++) {
 	      			if (data.links[i].activity.type === "like"){
@@ -57,7 +55,6 @@
 	      			if (data.links[i].activity.type === "like"){
 						const twitterLikeSection = document.getElementById('twitter-like-section');
 						twitterPhotoBubble (twitterLikeSection, data);
-						console.log("like: " + data);
 		      		}
 		      		else if (data.links[i].activity.type === "repost"){
 						const twitterRetweetSection = document.getElementById('twitter-retweets');
@@ -105,8 +102,6 @@
 		      		li.innerHTML = data;
 		      		target.appendChild(li);
 		      	}
-
-		      	console.log("Indie web stopped now");
 	      	});
 	    }
 	)
