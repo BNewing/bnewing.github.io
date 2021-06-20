@@ -4,6 +4,16 @@
   padding: 1rem;
   text-align: center;
   width: 100%;
+
+  &__container {
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: left;
+
+    @media (max-width: $tablet) {
+      margin-left: 1rem;
+    }
+  }
   &__img {
     height: 2rem;
     width: 2rem;

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<a href="/blog.html">&#8592; Back to the blog homepage</a>
+<a class="blog__link--return" href="/blog.html">&#8592; Back to the blog homepage</a>
 <article class="h-entry">
 	<img class="blog__image" src="/assets/images/blog-photos/{{ page.header_image_filename }}" alt="{{ page.header_image_alt }}" />
 	
@@ -14,7 +14,7 @@ layout: default
 	</div>
 
 	<h2 id="social-media-responses">Responses</h2>
-	<p>If you'd like to interact with this blog post, head on over to the Tweet about it:</p>	
+	<p>If you'd like to interact with this blog post, head on over to the below Tweet about it. Responses will be shown on this page (responses are picked up roughly every 30 minutes).</p>	
 		{{ page.webmention_tweet }}
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" crossorigin></script>
 </article>

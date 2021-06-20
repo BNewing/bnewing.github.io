@@ -74,6 +74,10 @@ button:visited, .button:visited { color: #000000; }
 
 .footer { background: #014d4e; color: #FFFFFF; padding: 1rem; text-align: center; width: 100%; }
 
+.footer__container { max-width: 48rem; margin: 0 auto; text-align: left; }
+
+@media (max-width: 48rem) { .footer__container { margin-left: 1rem; } }
+
 .footer__img { height: 2rem; width: 2rem; display: inline-block; }
 
 .footer__logo { height: 5rem; width: 5rem; }
@@ -159,6 +163,8 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 
 .blog__list { padding: 0; }
 
+.blog__link--return { display: block; margin-top: 2rem; }
+
 .blog__image { width: auto; border-radius: 1rem; height: 15rem; margin-top: 1.5rem; }
 
 @media (max-width: 48rem) { .blog__image { height: 12.5rem; } }
@@ -170,6 +176,10 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 .blog__image--preview { margin-right: 1rem; display: inline-block; border-radius: 1rem; height: auto; float: left; width: 10rem; }
 
 @media (max-width: 40.625rem) { .blog__image--preview { width: 5rem; margin-right: 1rem; } }
+
+.blog__image--left { float: left; margin: 1rem 1rem 1rem 0; height: auto; width: 15rem; height: auto; }
+
+.blog__image--right { float: right; margin: 1rem 0 1rem 1rem; width: 15rem; height: auto; }
 
 .blog__image--side-by-side { display: inline-block; margin: auto; }
 
