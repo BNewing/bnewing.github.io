@@ -33,9 +33,9 @@
     	}
 	}
 	&__photo {
-		float: left;
+		float: right;
 		height: 13rem;
-		margin-right: 3em;
+		margin-left: 3em;
 		shape-outside: circle();
 		-webkit-shape-outside: circle();
   		width: 13rem;
@@ -47,6 +47,7 @@
 	&__title {
 		border-bottom: none;
 		padding-bottom: 0;
+		text-align: left;
 	}
 	&__sub-title {
 		margin-top: 1rem;
