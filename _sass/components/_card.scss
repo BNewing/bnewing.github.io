@@ -4,7 +4,6 @@
 
 .card {
   list-style: none;
-  text-align: center;
   border-bottom: 1px solid $off-white;
   &__header {
     &--title { 
@@ -32,16 +31,14 @@
   }
   &__image {
     border-radius: 1rem;
-    float: left;
-    margin-right: 1rem;
+    float: right;
+    margin-left: 1rem;
     width: unset;
   }
   &__text {
-    margin-right: 1rem;
-    margin-left: 1rem;
+
   }
-  &__footer {;
-    text-align: center;
+  &__footer {
     margin: 1rem 0 3rem 0;
     &--button {
       display: inline-block;
