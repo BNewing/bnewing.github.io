@@ -11,7 +11,7 @@ permalink: /code
 			<h2 class="card__header--title">Record a goose sighting</h2>
 		</header>
 		<div class="card__main-body-container">
-		<img class="card__image" src="/assets/images/blog-photos/record-a-goose-sighting.png" alt="" />
+		<img class="card__image" src="/assets/images/record-a-goose-sighting.png" alt="" />
 			<div class="card__tag-container">
 				<p class="card__tags-label">Technologies used:</p>
 				<p class="card__tag">Government Digital Services prototyping kit</p>
@@ -29,7 +29,7 @@ permalink: /code
 			<h2 class="card__header--title">Three Rings CIC website</h2>
 		</header>
 		<div class="card__main-body-container">
-		<img class="card__image" src="/assets/images/blog-photos/three-rings-cic.png" alt="" />
+		<img class="card__image" src="/assets/images/three-rings-cic.png" alt="" />
 			<div class="card__tag-container">
 				<p class="card__tags-label">Technologies used:</p>
 				<p class="card__tag">WordPress</p>
