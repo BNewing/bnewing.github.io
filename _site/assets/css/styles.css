@@ -10,7 +10,7 @@ body { display: flex; min-height: 100vh; flex-direction: column; background: #CD
 
 .background { background-color: #CDDDDD; margin: 0 auto; width: 48rem; flex: 1; margin-bottom: 1rem; }
 
-@media (max-width: 48rem) { .background { margin-left: 5%; margin-right: 5%; padding-left: 5%; padding-right: 5%; width: auto; } }
+@media (max-width: 48rem) { .background { margin-left: 2rem; margin-right: 2rem; width: auto; } }
 
 .col { border: 2.1875rem solid transparent; padding: 2%; }
 
@@ -108,7 +108,7 @@ li.active > a { color: #000000; }
 
 .nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #000000; text-decoration: none; }
 
-@media (max-width: 40.625rem) { ul.nav { border-top: none; } li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; color: #FFFFFF; } }
+@media (max-width: 48rem) { ul.nav { border-top: none; } li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; color: #FFFFFF; } }
 
 .navbar-header { background-color: #014d4e; }
 
@@ -116,7 +116,7 @@ li.active > a { color: #000000; }
 
 .nav-justified > li > a { text-align: left; }
 
-.navbar-collapse { background-color: #014d4e; border-top: none; margin-right: 1rem; }
+.navbar-collapse { background-color: #014d4e; border-top: none; padding-left: 2rem; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }

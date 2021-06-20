@@ -35,7 +35,7 @@ li.active > a {
   }
 }
 
-@media (max-width: 40.625rem){
+@media (max-width: $tablet){
   ul.nav {
     border-top: none;
   }
@@ -66,5 +66,5 @@ li.active > a {
 .navbar-collapse {
   background-color: $dark-teal;
   border-top: none;
-  margin-right: 1rem;
+  padding-left: 2rem;
 }
