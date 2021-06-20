@@ -26,8 +26,6 @@ p, li, a { font-size: 1.125rem; }
 
 p, h1, h2, h3, h4, legend, label { color: #000000; }
 
-h1 { text-align: center; }
-
 h1, h2, h3, h4, h5, h6 { margin-top: 2.5rem; }
 
 .intro-text { border-bottom: 0.0625rem solid #EEEEEE; margin-bottom: 1.25rem; padding-bottom: 1.25rem; }
@@ -84,7 +82,7 @@ button:visited, .button:visited { color: #000000; }
 
 img { border-radius: 50%; display: block; height: 10rem; margin-left: auto; margin-right: auto; width: 10rem; }
 
-.talk-photos { margin: 2rem; text-align: center; }
+.talk-photos { margin-top: 2rem; margin-bottom: 2rem; }
 
 .talk-photos__img { display: inline; margin: 0 1rem; }
 
