@@ -13,7 +13,7 @@ permalink: /talks
 </div>
 <h2>Upcoming talks and Workshops</h2>
 <ul>
-	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to hear me talk.</p></li>	
+	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to talk at your event or conference!</p></li>	
 </ul>
 <h2>Past Talks and Workshops</h2>	
 <h3>2021</h3>

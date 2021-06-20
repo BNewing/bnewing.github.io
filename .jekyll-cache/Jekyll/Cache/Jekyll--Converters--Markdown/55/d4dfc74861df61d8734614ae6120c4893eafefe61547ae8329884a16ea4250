@@ -1,10 +1,6 @@
----
-layout: default
-title: Home
----
-<div class="bio">
+I"<div class="bio">
 	<div class="bio--left">
-		<img src="/assets/images/brightened-bridge.jpg" class="bio__photo" alt=""/>
+		<img src="/assets/images/brightened-bridge.jpg" class="bio__photo" alt="" />
 		<h1 class="bio__title">Hi, I'm Beverley</h1>
 		<p class="bio__text">I'm an accessibility specialist, front-end developer, former organiser of codebar Oxford and Code First: Girls lead instructor. I'm also a public speaker, blogger, and huuuuge fan of cute animals. My current role is accessibility lead at the UK Ministry of Justice.</p>
 		<p class="bio__text">I'm pretty passionate about accessibility and inclusion. In a world that is becoming increasingly digital, it's super important that we make sure it's accessible for everyone.</p>
@@ -19,3 +15,4 @@ title: Home
 		<a class="button bio__button" href="./talks.html">View all talks</a>
 	</div>
 </div>
+:ET
