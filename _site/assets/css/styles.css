@@ -135,7 +135,7 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 
 .bio__button:first-of-type { margin-bottom: 1.5rem; }
 
-.bio__photo { float: right; height: 13rem; margin-left: 3em; shape-outside: circle(); -webkit-shape-outside: circle(); width: 13rem; margin-top: 2.5rem; }
+.bio__photo { float: right; height: 13rem; margin-left: 3em; shape-outside: circle(); -webkit-shape-outside: circle(); width: 13rem; margin-top: 2rem; }
 
 @media (max-width: 40.625rem) { .bio__photo { float: unset; margin: auto; margin-top: 1rem; } }
 
