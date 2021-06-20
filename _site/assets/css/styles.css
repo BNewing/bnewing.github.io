@@ -112,7 +112,7 @@ li.active > a { color: #000000; }
 
 .navbar-header { background-color: #014d4e; }
 
-.navbar-inverse .navbar-toggle { border: 2px solid #FFFFFF; }
+.navbar-inverse .navbar-toggle { border: 2px solid #FFFFFF; color: #FFFFFF; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }
