@@ -50,3 +50,7 @@ li.active > a {
 .navbar-header {
   background-color: $dark-teal;
 }
+
+.navbar-inverse .navbar-toggle {
+  border: 2px solid $white;
+}
