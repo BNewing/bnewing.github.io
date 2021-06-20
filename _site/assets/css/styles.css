@@ -74,7 +74,7 @@ button:visited, .button:visited { color: #000000; }
 
 .card__footer--button { display: inline-block; margin: 0.5rem; }
 
-.footer { background: #464646; color: #FFFFFF; padding: 1rem; text-align: center; width: 100%; }
+.footer { background: #014d4e; color: #FFFFFF; padding: 1rem; text-align: center; width: 100%; }
 
 .footer__img { height: 2rem; width: 2rem; display: inline-block; }
 
@@ -106,7 +106,7 @@ li.active > a { color: #000000; }
 
 .nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #000000; text-decoration: none; }
 
-@media (max-width: 40.625rem) { li.nav { font-size: 1rem; line-height: normal; } .nav > li > a { padding: 0.25rem; } }
+@media (max-width: 40.625rem) { li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; } }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }
