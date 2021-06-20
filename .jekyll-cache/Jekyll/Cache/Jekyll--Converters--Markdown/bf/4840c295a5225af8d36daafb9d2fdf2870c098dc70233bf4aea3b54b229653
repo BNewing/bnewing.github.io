@@ -1,9 +1,4 @@
----
-layout: default
-title: Code
-permalink: /code
----
-<h1>Coding Portfolio</h1>
+I",<h1>Coding Portfolio</h1>
 <p class="intro-text">Here is a small collection of my favourite coding projects, which I've been working on lately.  The full list of things I've been working on can be found on my <a href="https://github.com/BNewing/">GitHub account</a>. I'm also <a href="https://codepen.io/WebDevBev/">WebDevBev</a> on codepen, where I mess around with CSS sometimes!</p>
 <ul class="card-list">
 	<li class="card">
@@ -45,3 +40,4 @@ permalink: /code
 		</footer>
 	</li>
 </ul>
+:ET
