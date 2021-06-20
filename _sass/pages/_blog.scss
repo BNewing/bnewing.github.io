@@ -53,7 +53,8 @@
   			float: left;
   			width: 10rem;
   			@media (max-width: $mobile) {
-	  			display: none;	
+	  			width: 5rem;	
+				margin-right: 1rem;
 	  		}
   		}
   		&--side-by-side {
