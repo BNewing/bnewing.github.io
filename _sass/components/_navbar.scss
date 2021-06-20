@@ -39,9 +39,11 @@ li.active > a {
   li.nav {
     font-size: $font-size-1;
     line-height: normal;
+    background-color: $dark-teal;
   }
   .nav>li>a{
-    padding: 0.25rem
+    padding: 0.25rem;
+    color: $white;
   }
 }
 
