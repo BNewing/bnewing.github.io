@@ -104,7 +104,7 @@ li.active > a { color: #000000; }
 
 .nav > li > a { border: 2px solid transparent; box-sizing: border-box; }
 
-.nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #FFFFFF; text-decoration: none; }
+.nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #000000; text-decoration: none; }
 
 @media (max-width: 48rem) { ul.nav { border-top: none; } li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; color: #FFFFFF; } .nav-justified > li > a { text-align: right; } .navbar-collapse { background-color: #014d4e; border-top: none; padding-left: 2rem; } }
 
@@ -117,6 +117,8 @@ li.active > a { color: #000000; }
 ul.nav { max-width: 50rem; margin: 0 auto; }
 
 .nav-justified > li > a { text-align: left; }
+
+.nav > li > a { color: #FFFFFF; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }
