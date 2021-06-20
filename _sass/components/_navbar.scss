@@ -36,6 +36,9 @@ li.active > a {
 }
 
 @media (max-width: 40.625rem){
+  ul.nav {
+    border-top: none;
+  }
   li.nav {
     font-size: $font-size-1;
     line-height: normal;
