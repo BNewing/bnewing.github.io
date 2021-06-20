@@ -43,4 +43,7 @@ a {
   &:hover, &:active, &:focus {
     color: $blue;
   }
+  &:focus {
+    outline: 2px solid black;
+  }
 }

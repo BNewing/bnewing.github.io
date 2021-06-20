@@ -39,6 +39,8 @@ a:visited { color: #016401; border-bottom: none; }
 
 a:hover, a:active, a:focus { color: #0099CC; }
 
+a:focus { outline: 2px solid black; }
+
 /*-------- COMPONENTS; --------*/
 button, .button { background-color: #FFCC11; border: .125rem solid transparent; border-radius: .25rem; box-shadow: 0.125rem 0.125rem 0.125rem 0 rgba(47, 50, 50, 0.75); color: #000000; font-size: 1.25rem; padding: .5rem 1rem; text-decoration: none; }
 
