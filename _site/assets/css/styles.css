@@ -106,7 +106,9 @@ li.active > a { color: #000000; }
 
 .nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #000000; text-decoration: none; }
 
-@media (max-width: 40.625rem) { li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; } }
+@media (max-width: 40.625rem) { li.nav { font-size: 1rem; line-height: normal; } .nav > li > a { padding: 0.25rem; } }
+
+.navbar-header { background-color: #014d4e; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }
