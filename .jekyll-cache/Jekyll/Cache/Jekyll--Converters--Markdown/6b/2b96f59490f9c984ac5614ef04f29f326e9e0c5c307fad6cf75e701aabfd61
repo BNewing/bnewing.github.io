@@ -1,9 +1,4 @@
----
-layout: default
-title: Talks
-permalink: /talks
----
-<h1 class="CV">Talks</h1>
+I"Ä<h1 class="CV">Talks</h1>
 <div class="talk-photos">
 	<img class="talk-photos__img" alt="Beverley speaking at a Personal Website workshop" src="/assets/images/talks.png" />
 	<img class="talk-photos__img" alt="Beverley speaking at the Lead Developer 2018" src="/assets/images/lead-dev.png" />
@@ -15,7 +10,7 @@ permalink: /talks
 <ul>
 	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to hear me talk.</p></li>	
 </ul>
-<h2>Past Talks and Workshops</h2>	
+<h2>Past Talks and Workshops</h2>
 <h3>2021</h3>
 <ul>
 	<li><a href="https://blogs.kent.ac.uk/staff-student-news/2021/05/18/kent-digital-accessibility-conference-2021/">Running Accessibility Testing Workshops</a> at Kent Accessibility Conference 2021, 16th June</li>
@@ -48,4 +43,5 @@ permalink: /talks
 	<li>"Supportive listening workshop" at Oxford Computer Consultants</li>
 	<li>"Git workshop" at Oxford Computer Consultants</li>
 </ul>
-		
+
+:ET
