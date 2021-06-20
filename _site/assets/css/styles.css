@@ -118,7 +118,7 @@ li.active > a { color: #000000; }
 
 .navbar-collapse { background-color: #014d4e; border-top: none; padding-left: 2rem; }
 
-ul.nav { max-width: 50rem; }
+ul.nav { max-width: 50rem; margin: 0 auto; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }
