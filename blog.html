@@ -11,7 +11,7 @@ permalink: /blog
     <li class="blog__post-preview">
       <img class="blog__image--preview" src="/assets/images/blog-photos/{{ post.header_image_preview_filename }}" alt="{{ post.header_image_alt }}" />
       <h2><a href="{{ post.url }}.html">{{ post.title }}</a></h2>
-	  <p>Posted on {{ post.publish_date }}</p>
+	  <p class="blog__date-posted">Date posted: {{ post.publish_date }}</p>
       <p>{{ post.excerpt | truncatewords: 50 }}...</p>
     </li>
   {% endfor %}

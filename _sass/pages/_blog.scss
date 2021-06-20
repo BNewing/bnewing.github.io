@@ -24,6 +24,9 @@
 			clear: both;
 		}
 	}
+	&__date-posted {
+		margin-top: 0;
+	}
 	&__list {
 		padding: 0;
 	}
@@ -44,7 +47,7 @@
 			border-radius: 2rem;
   		}
   		&--preview {
-  			margin-right: 2rem;
+  			margin-right: 1rem;
   			display: inline-block;
   			border-radius: 1rem;
   			height: auto;
