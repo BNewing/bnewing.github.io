@@ -39,9 +39,11 @@
 		shape-outside: circle();
 		-webkit-shape-outside: circle();
   		width: 13rem;
+		margin-top: 2.5rem;
 	  	@media (max-width: $mobile) {
 	    	float: unset;
 	    	margin: auto;
+			margin-top: 1rem;
 		}
 	}
 	&__title {

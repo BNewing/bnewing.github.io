@@ -123,9 +123,9 @@ li.active > a { color: #000000; }
 
 .bio__button:first-of-type { margin-bottom: 1.5rem; }
 
-.bio__photo { float: right; height: 13rem; margin-left: 3em; shape-outside: circle(); -webkit-shape-outside: circle(); width: 13rem; }
+.bio__photo { float: right; height: 13rem; margin-left: 3em; shape-outside: circle(); -webkit-shape-outside: circle(); width: 13rem; margin-top: 2.5rem; }
 
-@media (max-width: 40.625rem) { .bio__photo { float: unset; margin: auto; } }
+@media (max-width: 40.625rem) { .bio__photo { float: unset; margin: auto; margin-top: 1rem; } }
 
 .bio__title { border-bottom: none; padding-bottom: 0; text-align: left; }
 
