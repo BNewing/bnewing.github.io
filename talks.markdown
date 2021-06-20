@@ -13,9 +13,18 @@ permalink: /talks
 <p class="intro-text">If you'd interested in having me come and do a talk or workshop for you, please get in touch through one of the options on my contact page.</p>
 <h2>Upcoming talks and Workshops</h2>
 <ul>
-	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to hear me talk</p></li>	
+	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to hear me talk.</p></li>	
 </ul>
 <h2>Past Talks and Workshops</h2>	
+<h3>2021</h3>
+<ul>
+	<li><a href="https://blogs.kent.ac.uk/staff-student-news/2021/05/18/kent-digital-accessibility-conference-2021/">Running Accessibility Testing Workshops</a> at Kent Accessibility Conference 2021, 16th June</li>
+	<li><a href="https://codebar.io/events/codebar-festival-2021-day-1">Intro to accessibility testing</a> at the codebar festival 2021, 12th March</a>
+</ul>
+<h3>2020</h3>
+<ul>
+	<li><a href="https://www.ucdgathering.net/">Intro to accessibility testing</a> at User Centred Design Conference, 15th October 
+</ul>
 <h3>2019</h3>
 <ul>
 	<li><a href="https://www.meetup.com/BerkshireJS/events/265028403/">Intro to accessibility testing</a> at Berkshire JS, 8th October</li>	
