@@ -58,7 +58,7 @@ li.active > a {
   border: 2px solid $white;
   color: $white;
 
-  &:focus {
+  &:focus, &:hover {
     color: $black;
     background-color: $white;
   }
@@ -72,4 +72,8 @@ li.active > a {
   background-color: $dark-teal;
   border-top: none;
   padding-left: 2rem;
+}
+
+ul.nav {
+  max-width: 50rem;
 }
