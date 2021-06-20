@@ -55,3 +55,11 @@ li.active > a {
   border: 2px solid $white;
   color: $white;
 }
+
+.nav-justified > li > a {
+  text-align: left;
+}
+
+.navbar-collapse {
+  background-color: $dark-teal;
+}
