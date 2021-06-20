@@ -4,13 +4,13 @@ title: Talks
 permalink: /talks
 ---
 <h1 class="CV">Talks</h1>
+<p>I do public speaking around the topic of getting people into the tech industry, and diversity in tech. I also specialise in accessibility, and do talks around this.</p>
+<p>If you'd interested in having me come and do a talk or workshop for you, please get in touch through one of the options on my contact page.</p>
 <div class="talk-photos">
 	<img class="talk-photos__img" alt="Beverley speaking at a Personal Website workshop" src="/assets/images/talks.png" />
 	<img class="talk-photos__img" alt="Beverley speaking at the Lead Developer 2018" src="/assets/images/lead-dev.png" />
 	<img class="talk-photos__img" alt="Beverley leading a codebar workshop" src="/assets/images/talks2.png" />
 </div>
-<p>I do public speaking around the topic of getting people into the tech industry, and diversity in tech. I also specialise in accessibility, and do talks around this.</p>
-<p class="intro-text">If you'd interested in having me come and do a talk or workshop for you, please get in touch through one of the options on my contact page.</p>
 <h2>Upcoming talks and Workshops</h2>
 <ul>
 	<li><p>Nothing currently announced - <a href="./contact.html">contact me</a> if you'd like to hear me talk.</p></li>	
