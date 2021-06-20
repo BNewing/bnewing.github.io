@@ -110,6 +110,8 @@ li.active > a { color: #000000; }
 
 .navbar-header { background-color: #014d4e; }
 
+.navbar-inverse { background-color: #014d4e; }
+
 .navbar-inverse .navbar-toggle { border: 2px solid #FFFFFF; color: #FFFFFF; }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { color: #000000; background-color: #FFFFFF; }
