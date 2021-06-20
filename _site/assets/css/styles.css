@@ -114,6 +114,8 @@ li.active > a { color: #000000; }
 
 .navbar-inverse .navbar-toggle { border: 2px solid #FFFFFF; color: #FFFFFF; }
 
+.navbar-inverse .navbar-toggle:focus { color: #000000; background-color: #FFFFFF; }
+
 .nav-justified > li > a { text-align: right; }
 
 .navbar-collapse { background-color: #014d4e; border-top: none; padding-left: 2rem; }
