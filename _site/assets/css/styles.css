@@ -108,7 +108,7 @@ li.active > a { color: #000000; }
 
 .nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active { border: 0.125rem solid black; color: #000000; text-decoration: none; }
 
-@media (max-width: 48rem) { ul.nav { border-top: none; } li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; color: #FFFFFF; } .nav-justified > li > a { text-align: right; } }
+@media (max-width: 48rem) { ul.nav { border-top: none; } li.nav { font-size: 1rem; line-height: normal; background-color: #014d4e; } .nav > li > a { padding: 0.25rem; color: #FFFFFF; } .nav-justified > li > a { text-align: right; } .navbar-collapse { background-color: #014d4e; border-top: none; padding-left: 2rem; } }
 
 .navbar-header { background-color: #014d4e; }
 
@@ -116,9 +116,9 @@ li.active > a { color: #000000; }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { color: #000000; background-color: #FFFFFF; }
 
-.navbar-collapse { background-color: #014d4e; border-top: none; padding-left: 2rem; }
-
 ul.nav { max-width: 50rem; margin: 0 auto; }
+
+.nav-justified > li > a { text-align: left; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }

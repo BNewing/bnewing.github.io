@@ -51,6 +51,11 @@ li.active > a {
   .nav-justified > li > a {
     text-align: right;
   }
+  .navbar-collapse {
+    background-color: $dark-teal;
+    border-top: none;
+    padding-left: 2rem;
+  }
 }
 
 .navbar-header {
@@ -67,13 +72,11 @@ li.active > a {
   }
 }
 
-.navbar-collapse {
-  background-color: $dark-teal;
-  border-top: none;
-  padding-left: 2rem;
-}
-
 ul.nav {
   max-width: 50rem;
   margin: 0 auto;
+}
+
+.nav-justified > li > a {
+  text-align: left;
 }
