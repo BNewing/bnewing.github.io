@@ -116,7 +116,7 @@ li.active > a { color: #000000; }
 
 .nav-justified > li > a { text-align: left; }
 
-.navbar-collapse { background-color: #014d4e; border-top: none; }
+.navbar-collapse { background-color: #014d4e; border-top: none; margin-right: 1rem; }
 
 /*-------- PAGES --------*/
 .bio { min-height: 100%; }
