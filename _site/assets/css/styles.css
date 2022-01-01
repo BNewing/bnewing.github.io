@@ -133,7 +133,7 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 
 @media (min-width: 64rem) { .bio--right { flex: 2; margin-top: 0; margin-top: 0; padding-top: 1rem; } }
 
-.bio__content-section { border-top: 2px solid #014d4e; margin-top: 3rem; padding: 1rem 0; }
+.bio__content-section { border-top: 2px solid #014d4e; margin-top: 3rem; padding: 1rem 0 0 0; }
 
 .bio__content-section:first-of-type { margin-top: 2rem; }
 
