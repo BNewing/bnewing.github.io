@@ -4,8 +4,8 @@ title: Talks
 permalink: /talks
 ---
 <h1 class="CV">Talks</h1>
-<p>I do public speaking around the topic of getting people into the tech industry, and diversity in tech. I also specialise in accessibility, and do talks around this.</p>
-<p>If you'd interested in having me come and do a talk or workshop for you, please get in touch through one of the options on my contact page.</p>
+<p>I do public speaking around the topic of getting people into the tech industry, and diversity in tech. I currently specialise in accessibility, and do talks around this.</p>
+<p>If you're interested in having me come and do a talk or workshop for your event, please get in touch through one of the options on my contact page.</p>
 <div class="talk-photos">
 	<img class="talk-photos__img" alt="Beverley speaking at a Personal Website workshop" src="/assets/images/talks.png" />
 	<img class="talk-photos__img" alt="Beverley speaking at the Lead Developer 2018" src="/assets/images/lead-dev.png" />
@@ -18,6 +18,7 @@ permalink: /talks
 <h2>Past Talks and Workshops</h2>	
 <h3>2021</h3>
 <ul>
+	<li>'Getting to know an accessibility specialist' for codebar</li>
 	<li><a href="https://blogs.kent.ac.uk/staff-student-news/2021/05/18/kent-digital-accessibility-conference-2021/">Running Accessibility Testing Workshops</a> at Kent Accessibility Conference 2021, 16th June</li>
 	<li><a href="https://codebar.io/events/codebar-festival-2021-day-1">Intro to accessibility testing</a> at the codebar festival 2021, 12th March</li>
 </ul>
