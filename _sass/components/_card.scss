@@ -4,7 +4,13 @@
 
 .card {
   list-style: none;
-  border-bottom: 1px solid $off-white;
+  border-top: 2px solid $dark-teal;
+  padding-top: 2rem;
+
+  &:first-of-type {
+    border-top: 0;
+    padding-top: 0;
+  }
   &__header {
     &--title { 
       margin: 0;
@@ -20,7 +26,7 @@
     display: inline-block;
     font-size: $font-size-1;
     margin-top: 0.5rem;
-    padding: 0.25rem;
+    padding: 0.4rem;
   }
   &__main-body-container {
     &:after {
@@ -35,14 +41,15 @@
     margin-left: 1rem;
     width: unset;
   }
-  &__text {
-
-  }
   &__footer {
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 2rem 0;
     &--button {
       display: inline-block;
       margin: 0.5rem;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
     }
   }
 }

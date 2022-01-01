@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, legend, label { color: #000000; }
 
 h1, h2, h3, h4, h5, h6 { margin-top: 2.5rem; }
 
-.intro-text { border-bottom: 0.0625rem solid #EEEEEE; margin-bottom: 1.25rem; padding-bottom: 1.25rem; }
+.intro-text { border-bottom: 2px solid #014d4e; margin-bottom: 2rem; padding-bottom: 2rem; }
 
 /*-------- LINKS --------*/
 a { color: #016401; text-decoration: underline; }
@@ -56,21 +56,25 @@ button:visited, .button:visited { color: #000000; }
 
 .card-list { padding-left: 0; }
 
-.card { list-style: none; border-bottom: 1px solid #EEEEEE; }
+.card { list-style: none; border-top: 2px solid #014d4e; padding-top: 2rem; }
+
+.card:first-of-type { border-top: 0; padding-top: 0; }
 
 .card__header--title { margin: 0; }
 
 .card__tags-label { display: inline; }
 
-.card__tag { background-color: #016401; border-radius: 0; color: white; display: inline-block; font-size: 1rem; margin-top: 0.5rem; padding: 0.25rem; }
+.card__tag { background-color: #016401; border-radius: 0; color: white; display: inline-block; font-size: 1rem; margin-top: 0.5rem; padding: 0.4rem; }
 
 .card__main-body-container:after { content: ""; clear: both; display: table; }
 
 .card__image { border-radius: 1rem; float: right; margin-left: 1rem; width: unset; }
 
-.card__footer { margin: 1rem 0 3rem 0; }
+.card__footer { margin: 1rem 0 2rem 0; }
 
 .card__footer--button { display: inline-block; margin: 0.5rem; }
+
+.card__footer--button:first-of-type { margin-left: 0; }
 
 .footer { background: #014d4e; color: #FFFFFF; padding: 1rem; text-align: center; width: 100%; }
 
