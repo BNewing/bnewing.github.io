@@ -1,5 +1,6 @@
 .bio {
 	min-height: 100%;
+	border-top: 1px solid $dark-teal;
 	@media (min-width: $desktop) {
 		display: flex;
 		flex-direction: row;
@@ -7,17 +8,44 @@
 	}
 	&--left {
 		@media (min-width: $desktop) {
-			flex: 7;
+			flex: 2;
 			padding-right: 2rem;
+			border-left: 1px solid $dark-teal;
+			padding-left: 2rem;
+			margin-top: 0;
+			padding-top: 1rem;
 		}
 	}
 	&--right {
 		@media (min-width: $desktop) {
-			border-left: 1px solid black;
-			padding-left: 2rem;
-			flex: 3;
-			margin-left: 1rem;
+			flex: 2;
 			margin-top: 0;
+			margin-top: 0;
+			padding-top: 1rem;
+		}
+	}
+	&__content-section {
+		border-top: 2px solid $dark-teal;
+
+		margin-top: 3rem;
+		padding: 1rem 0;
+
+		&:first-of-type {
+			margin-top: 2rem;
+		}
+	}
+	&__image {
+		width: 10rem;
+		border-radius: 1rem;
+		height: 10rem;
+		display: inline-block;
+		float: right;
+		margin: 1rem 1rem 0 0;
+
+		@media (max-width: $mobile) {
+	    	width: 8rem;
+			height: 8rem;
+			margin: 1rem;
 		}
 	}
 	&__button {
@@ -27,9 +55,6 @@
 		margin-top: 0.5rem;
     	&:visited {
     		color: $black;
-    	}
-    	&:first-of-type {
-    		margin-bottom: 1.5rem;
     	}
 	}
 	&__photo {
