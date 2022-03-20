@@ -1,12 +1,8 @@
 .contact-form {
-  &__legend {
-    border-bottom: 0;
-    margin-bottom: 0;
-  }
   &__label {
     font-size: 1.125rem;
-    margin-bottom: 0;
     text-align: left;
+    font-weight: normal;
   }
   &__input {
     border: 0.0625rem solid $light-grey;
@@ -18,6 +14,6 @@
   }
   &__button {
     display: block;
-    margin: 0 auto;
+    margin-bottom: 2rem;
   }
 }

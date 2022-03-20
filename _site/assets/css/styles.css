@@ -46,13 +46,11 @@ button:hover, button:active, button:focus, .button:hover, .button:active, .butto
 
 button:visited, .button:visited { color: #000000; }
 
-.contact-form__legend { border-bottom: 0; margin-bottom: 0; }
-
-.contact-form__label { font-size: 1.125rem; margin-bottom: 0; text-align: left; }
+.contact-form__label { font-size: 1.125rem; text-align: left; font-weight: normal; }
 
 .contact-form__input { border: 0.0625rem solid #7E7E7E; border-radius: 0.5rem; font-size: 1.125rem; margin: 0.5rem 0; padding: 0.5rem; width: 100%; }
 
-.contact-form__button { display: block; margin: 0 auto; }
+.contact-form__button { display: block; margin-bottom: 2rem; }
 
 .card-list { padding-left: 0; }
 
