@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<a class="blog__link--return" href="/blog.html">&#8592; Back to the blog homepage</a>
+<article class="h-entry">
+	<img class="blog__image" src="/assets/images/blog-photos/{{ page.header_image_filename }}" alt="{{ page.header_image_alt }}" />
+	
+	<h1 class="blog__title p-name"> {{ page.title }} </h1>
+
+	<p class="blog__date">Published by <a href="https://webdevbev.co.uk" rel="author" class="p-author h-card">Beverley Newing</a> on <time class="dt-published">{{ page.publish_date }}</time></p>
+	
+	<div class="blog-post__external">
+		{{ content }}
+	</div>
+</article>

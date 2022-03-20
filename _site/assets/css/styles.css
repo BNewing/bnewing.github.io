@@ -175,7 +175,7 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 
 .blog__link--return { display: block; margin-top: 2rem; }
 
-.blog__image { width: auto; border-radius: 1rem; height: 15rem; margin-top: 1.5rem; }
+.blog__image { width: auto; border-radius: 1rem; height: 15rem; margin-top: 1.5rem; margin-left: 0; }
 
 @media (max-width: 48rem) { .blog__image { height: 12.5rem; } }
 
@@ -194,5 +194,7 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 .blog__image--side-by-side { display: inline-block; margin: auto; }
 
 @media (max-width: 40.625rem) { .blog__image--side-by-side { display: block; } }
+
+.blog-post__external { margin-bottom: 2rem; }
 
 /*# sourceMappingURL=styles.css.map */

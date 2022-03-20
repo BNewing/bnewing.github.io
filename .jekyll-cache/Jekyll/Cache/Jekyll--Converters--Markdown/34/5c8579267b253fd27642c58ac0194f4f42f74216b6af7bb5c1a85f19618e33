@@ -1,0 +1,23 @@
+I"M<div>
+	<div>
+		<img src="/assets/images/brightened-bridge.jpg" class="bio__photo" alt="" />
+		<h1 class="bio__title">Hi! I'm Beverley</h1>
+		<p class="bio__text">I'm an accessibility lead and front-end developer. My current role is Accessibility Lead at the UK Ministry of Justice, which I've had since April 2021. I'm super passionate about accessibility and inclusion. In a world that is becoming increasingly digital, it's really important that everyone can participate.</p>
+		<p class="bio__text">I also like to volunteer. At the moment, I volunteer on the dev team of <a href="https://www.threerings.org.uk/">Three Rings CIC</a>. As an organisation, we provide volunteer management software for voluntary organisations like the Samaritans and Childline, at low cost to them (because we're all volunteers ourselves at Three Rings CIC). In the past, I set up <a href="https://codebar.io/">codebar Oxford</a> and ran that for 2 years, and I've also taught on <a href="https://codebar.io/">Code First: Girls</a> courses, to try and help diversity the tech industry.</p>
+		<p>In my spare time, I like to sew, bird watch, and go out on the motorbike. My pronouns are they/them.</p> 
+	</div>
+	<div class="bio__content-section">
+		<img class="bio__image" src="/assets/images/blog-photos/parakeets-on-feeders-preview.jpg" alt="Two bright green ring-necked parakeets on a peanut feeder - one is tucking in, and the other is leaning out from the feeder, on the lookout" />
+		<h2 class="bio__sub-title">Latest blog post</h2>
+		<p>'Reflections on 2021', posted on 1st January 2022.</p>
+		<p>I’ve always really enjoyed reading blog posts from other people on their reflections of their years. So this year, I thought I’d have a go at my own...</p>
+		<a class="button bio__button" href="./blog.html">See all posts</a>
+	</div>
+	<div class="bio__content-section">
+		<img class="bio__image" alt="" src="/assets/images/talks2.png" />
+		<h2 class="bio__sub-title">Lastest talk</h2>
+		<p>'Getting to know an accessibility specialist' for codebar.</p>
+		<a class="button bio__button" href="./talks.html">View all talks</a>
+	</div>
+</div>
+:ET

@@ -30,7 +30,7 @@ permalink: /talks
 <ul>
 	<li><a href="https://www.meetup.com/BerkshireJS/events/265028403/">Intro to accessibility testing</a> at Berkshire JS, 8th October</li>	
 	<li><a href="https://www.meetup.com/Front-End-Sheffield/events/264692010/">Intro to accessibility testing</a> at Front End Sheffield, 26th September</li>
-	<li><a href="https://www.meetup.com/UX-Oxford/events/261514365/">Public Sector Bodies Accessibility Regulations - what are they?</a> at UX Oxford, May 2019</li>
+	<li><a href="https://www.meetup.com/UX-Oxford/events/260392300/">Public Sector Bodies Accessibility Regulations - what are they?</a> at UX Oxford, May 2019</li>
 	<li><a href="https://www.meetup.com/Ladies-of-Code-Glasgow/events/264007182/">Intro to accessibility testing</a> at Glasgow Ladies of Code</li>
 </ul>
 <h3>2018</h3>

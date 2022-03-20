@@ -1,9 +1,9 @@
-I"i<div>
+I"c<div>
 	<div>
 		<img src="/assets/images/brightened-bridge.jpg" class="bio__photo" alt="" />
-		<h1 class="bio__title">Hi, I'm Beverley</h1>
-		<p class="bio__text">I'm an accessibility lead and front-end developer. I currently volunteer with Three Rings CIC, and in the past, set up codebar Oxford and taught on Code First: Girls courses. </p>
-		<p class="bio__text">I'm very passionate about accessibility and inclusion. In a world that is increasingly digital, it's really important that everyone can participate. My current role is Accessibility Lead at the UK Ministry of Justice.</p>
+		<h1 class="bio__title">Hi! I'm Beverley</h1>
+		<p class="bio__text">I'm an accessibility lead and front-end developer. My current role is Accessibility Lead at the UK Ministry of Justice, which I've had since April 2021. I'm super passionate about accessibility and inclusion. In a world that is becoming increasingly digital, it's really important that everyone can participate.</p>
+		<p class="bio__text">I also like to volunteer. At the moment, I volunteer on the dev team of <a href="https://www.threerings.org.uk/">Three Rings CIC</a>. We provide volunteer management software for organisations like the Samaritans and Childline, at low cost to them (because we're all volunteers ourselves at Three Rings CIC). In the past, I set up <a href="https://codebar.io/">codebar Oxford</a> and ran that for 2 years, and I've also taught on <a href="https://codebar.io/">Code First: Girls</a> courses, to try and help diversity the tech industry. Diversity and social inclusion is important to me. </p>
 		<p>In my spare time, I like to sew, bird watch, and go out on the motorbike. My pronouns are they/them.</p> 
 	</div>
 	<div class="bio__content-section">
