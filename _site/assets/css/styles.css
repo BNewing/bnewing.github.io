@@ -165,7 +165,7 @@ ul.nav { max-width: 50rem; margin: 0 auto; }
 
 .blog__link-description { margin-top: 0.5rem; }
 
-.blog__post-preview { list-style-type: none; }
+.blog__post-preview { list-style-type: none; margin-bottom: 4rem; }
 
 .blog__post-preview::after { content: ""; display: block; clear: both; }
 

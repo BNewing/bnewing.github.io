@@ -1,10 +1,5 @@
----
-layout: default
-title: Code
-permalink: /code
----
-<h1>Coding Portfolio</h1>
-<p >Here is a small collection of my favourite projects that I've worked on. I used to work for an agency, and unfortunately not all of that work is publically available. But below is a selection my favourite things that are!</p>
+I"{<h1>Coding Portfolio</h1>
+<p>Here is a small collection of my favourite projects that I've worked on. I used to work for an agency, and unfortunately not all of that work is publically available. But below is a selection my favourite things that are!</p>
 
 <p class="intro-text">The full list of (publically available) things I've been working on can be found on my <a href="https://github.com/BNewing/">GitHub account</a>. I'm also <a href="https://codepen.io/WebDevBev/">WebDevBev</a> on codepen, where I mess around with CSS sometimes!</p>
 
@@ -14,7 +9,7 @@ permalink: /code
 			<h2 class="card__header--title">Hale</h2>
 		</header>
 		<div class="card__main-body-container">
-		<img class="card__image" src="/assets/images/hale.png" alt="" />
+		<img class="card__image" src="/assets/images/record-a-goose-sighting.png" alt="" />
 			<div class="card__tag-container">
 				<p class="card__tags-label">Technologies used:</p>
 				<p class="card__tag">WordPress</p>
@@ -32,7 +27,7 @@ permalink: /code
 			<h2 class="card__header--title">Cookie banner plugin</h2>
 		</header>
 		<div class="card__main-body-container">
-		<img class="card__image" src="/assets/images/cookie-banner.png" alt="" />
+		<img class="card__image" src="/assets/images/record-a-goose-sighting.png" alt="" />
 			<div class="card__tag-container">
 				<p class="card__tags-label">Technologies used:</p>
 				<p class="card__tag">HTML</p>
@@ -101,3 +96,4 @@ permalink: /code
 		</footer>
 	</li>
 </ul>
+:ET

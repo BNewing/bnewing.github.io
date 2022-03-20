@@ -1,20 +1,33 @@
----
-layout: default
-title: Code
-permalink: /code
----
-<h1>Coding Portfolio</h1>
-<p >Here is a small collection of my favourite projects that I've worked on. I used to work for an agency, and unfortunately not all of that work is publically available. But below is a selection my favourite things that are!</p>
+I"6<h1>Coding Portfolio</h1>
+<p>Here is a small collection of my favourite projects that I've worked on. I used to work for an agency, and unfortunately not all of that work is publically available. But below is a selection my favourite things that are!</p>
 
 <p class="intro-text">The full list of (publically available) things I've been working on can be found on my <a href="https://github.com/BNewing/">GitHub account</a>. I'm also <a href="https://codepen.io/WebDevBev/">WebDevBev</a> on codepen, where I mess around with CSS sometimes!</p>
 
 <ul class="card-list">
-<li class="card">
+	<li class="card">
+		<header class="card__header">
+			<h2 class="card__header--title">Cookie banner plugin</h2>
+		</header>
+		<div class="card__main-body-container">
+		<img class="card__image" src="/assets/images/record-a-goose-sighting.png" alt="" />
+			<div class="card__tag-container">
+				<p class="card__tags-label">Technologies used:</p>
+				<p class="card__tag">HTML</p>
+				<p class="card__tag">CSS</p>
+				<p class="card__tag">JavaScript</p>
+			</div>
+			<p class="card__text">I worked on a WordPress cookie banner to roll out across our WordPress websites, at the Ministry of Justice. I researched GDPR requirements by reading legislation and attending events by others who specialised in this field to understand what we needed to implement. I then worked collaboratively with the interaction designer and content designer to create the banner, and we WCAG audited versions of it and iterated, to make it accessible. It allows for people to turn</p>
+		</div>
+		<footer class="card__footer">
+			<a href="https://github.com/ministryofjustice/wp-hale" class="card__footer--button button">View cookie banner code</a>
+		</footer>
+	</li>
+	<li class="card">
 		<header class="card__header">
 			<h2 class="card__header--title">Hale</h2>
 		</header>
 		<div class="card__main-body-container">
-		<img class="card__image" src="/assets/images/hale.png" alt="" />
+		<img class="card__image" src="/assets/images/record-a-goose-sighting.png" alt="" />
 			<div class="card__tag-container">
 				<p class="card__tags-label">Technologies used:</p>
 				<p class="card__tag">WordPress</p>
@@ -25,24 +38,6 @@ permalink: /code
 		<footer class="card__footer">
 			<a href="https://github.com/ministryofjustice/wp-hale" class="card__footer--button button">View Hale theme code</a>
 			<a href="https://github.com/ministryofjustice/wp-moj-blocks/" class="card__footer--button button">View Gutenberg components code</a>
-		</footer>
-	</li>
-	<li class="card">
-		<header class="card__header">
-			<h2 class="card__header--title">Cookie banner plugin</h2>
-		</header>
-		<div class="card__main-body-container">
-		<img class="card__image" src="/assets/images/cookie-banner.png" alt="" />
-			<div class="card__tag-container">
-				<p class="card__tags-label">Technologies used:</p>
-				<p class="card__tag">HTML</p>
-				<p class="card__tag">CSS</p>
-				<p class="card__tag">JavaScript</p>
-			</div>
-			<p class="card__text">I worked on a WordPress cookie banner to roll out across our WordPress websites, at the Ministry of Justice. I researched GDPR requirements by reading legislation and attending events by others who specialised in this field to understand what we needed to implement. I then worked collaboratively with the interaction designer and content designer to create the banner, and we WCAG audited versions of it and iterated, to make sure it was accessible. It allows for people to turn Google Analytics cookies on and off.</p>
-		</div>
-		<footer class="card__footer">
-			<a href="https://github.com/ministryofjustice/cookie-compliance-for-wordpress" class="card__footer--button button">View cookie banner code</a>
 		</footer>
 	</li>
 	<li class="card">
@@ -101,3 +96,4 @@ permalink: /code
 		</footer>
 	</li>
 </ul>
+:ET

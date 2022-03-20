@@ -16,7 +16,7 @@ title: Home
       <img class="bio__image" src="/assets/images/blog-photos/{{ post.header_image_preview_filename }}" alt="{{ post.header_image_alt }}" />
       <h2 class="bio__sub-title">Latest blog post</h2>
 	  <p>'{{ post.title }}', posted on {{ post.publish_date }}</p>
-      <p>{{ post.excerpt | truncatewords: 25 }}...</p>
+      <p>{{ post.excerpt | truncatewords: 25 }}</p>
 	  <a class="button bio__button" href="{{ post.url }}.html">Read the '{{ post.title }}' blog post</a>
     </li>
   {% endfor %} 
