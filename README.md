@@ -37,7 +37,15 @@ Every time you change the SASS, you'll need to run:
 
 to recompile the CSS. This will also run autoprefixer and sourcemaps.
 
-## 4. Indie Web Stuffs
+## 4. Deploying changes
+
+Run:
+
+`bundle exec jekyll serve` 
+
+This compiles it, and after doing this, you can then push it up to GitHub. Once the most recent changes are up on GitHub, they'll automatically pull through to the live site.
+
+## 5. Indie Web Stuffs
 
 To send webmentions, I've been doing command line curls at the moment, using this documentation: [https://indieweb.org/webmention-implementation-guide](https://indieweb.org/webmention-implementation-guide). 
 
@@ -45,7 +53,7 @@ Webmentions are received from [https://webmention.io/](https://webmention.io/) a
 
 My endpoint is https://webmention.io/webdevbev.co.uk/webmention if anyone wants to mention me in anything!
 
-## 5. How to Suggest a Change
+## 6. How to Suggest a Change
 
 Feedback is very welcome! To suggest a change, either raise an issue, or fork and clone the project and create a pull request using the steps listed here:
 
